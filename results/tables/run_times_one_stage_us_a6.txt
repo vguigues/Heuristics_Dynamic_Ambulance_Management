@@ -1,0 +1,6 @@
+Heuristic	min (us)	mean (us)	q0.9 (us)	max (us)
+queue	        0	        0.047581	0	        27
+markov_prep	    1.883-05	0.000741	0.001306	0.0021009445190429688
+preparedness	0	        4.041621	7	        291
+district	    0	        0.003170	0	        6
+ordered	        0	        0.001289	0	        1

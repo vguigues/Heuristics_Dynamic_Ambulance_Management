@@ -1,0 +1,486 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug 27 12:50:46 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 26)
+OBJ = $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'Makefile', line 25)
+SRC = $(wildcard $(SRC_DIR)/*.cpp)
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/victor/Downloads/Projetos/SAMU_HEURISTIC
+# makefile
+SHELL = /bin/sh
+# environment
+GUROBI_HOME = /opt/gurobi951/linux64
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"8e7a008e83c664b9876a8f72ff0490ae.pt-br","_translationsConfigFile":"/home/victor/.config/Code/clp/8e7a008e83c664b9876a8f72ff0490ae.pt-br/tcf.json","_cacheRoot":"/home/victor/.config/Code/clp/8e7a008e83c664b9876a8f72ff0490ae.pt-br","_resolvedLanguagePackCoreLocation":"/home/victor/.config/Code/clp/8e7a008e83c664b9876a8f72ff0490ae.pt-br/e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"/home/victor/.config/Code/clp/8e7a008e83c664b9876a8f72ff0490ae.pt-br/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:45399
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = victor
+# makefile (from 'Makefile', line 24)
+OBJ_DIR = obj
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/home/victor/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+MANAGERPID = 1303
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile', line 15)
+CPP = /usr/bin/g++-9
+# environment
+VSCODE_CWD = /home/victor
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/victor/.local/bin:/home/victor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi951/linux64/bin:/opt/ibm/ILOG/CPLEX_Studio221/cplex/bin/x86-64_linux:/usr/local/go/bin:/home/victor/.local/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# makefile (from 'Makefile', line 16)
+CARGS = -m64 -std=c++14 -Wfatal-errors -Wno-ignored-attributes $(CXX_FLAGS)
+# environment
+SESSION_MANAGER = local/victor-UNIX-PC:@/tmp/.ICE-unix/1657,unix/victor-UNIX-PC:/tmp/.ICE-unix/1657
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 22)
+INCLUDE_DIR = include
+# makefile (from 'Makefile', line 2)
+OSRM_LIB = /usr/local/lib
+# environment
+GOPATH = /usr/local/go
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 895f312c95fd46789609a699fee3874a
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 10404
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+PWD = /home/victor/Downloads/Projetos/SAMU_HEURISTIC
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1622
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/victor
+# environment
+LD_LIBRARY_PATH = :/opt/gurobi951/linux64/lib:/opt/gurobi951/linux64/src/build:/opt/ibm/ILOG/CPLEX_Studio221/cplex/lib/x86-64_linux/static_pic:/opt/ibm/ILOG/CPLEX_Studio221/concert/lib/x86-64_linux/static_pic
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from 'Makefile', line 17)
+CPPLIB = -L$(GUROBI_HOME)/lib -lboost_program_options -lboost_system -pthread -lpthread -ldl -lgurobi_c++ -lgurobi95 -L/usr/local/lib -losrm -lrt -lz -fuse-ld=gold -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-O1 -Wl,--hash-style=gnu -Wl,--sort-common -lboost_regex -lboost_date_time -lboost_chrono -lboost_filesystem -lboost_iostreams -lboost_thread -lboost_system -lpthread -ltbb -ltbbmalloc -lfmt
+# environment
+VSCODE_CODE_CACHE_PATH = /home/victor/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = victor
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+CPLEX_DIR = /opt/ibm/ILOG/CPLEX_Studio221/cplex
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 29)
+CONFIG = -O3
+# makefile (from 'Makefile', line 5)
+CXX_FLAGS = -DBOOST_TEST_DYN_LINK -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_FILESYSTEM_NO_DEPRECATED -rdynamic
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = victor
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 12)
+INC := -I/usr/local/include/boost -I/opt/ibm/ILOG/CPLEX_Studio221/cplex/include/ -I/opt/ibm/ILOG/CPLEX_Studio221/concert/include -I/usr/local/include/xtl -I/usr/local/include/xtensor -I/opt/gurobi951/linux64/include -I/usr/local/include/osrm
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = pt_BR:pt:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-a3af7379-1.70.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+CPLEX_CONCERT = /opt/ibm/ILOG/CPLEX_Studio221/concert
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'Makefile', line 8)
+PLATFORM = linux64
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 23)
+SRC_DIR = src
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 1)
+OSRM_INCLUDE = /usr/local/include/osrm 
+# makefile (from 'Makefile', line 27)
+EXE = esma
+# environment
+LANG = C
+# environment
+VSCODE_PID = 10404
+# variable set hash-table stats:
+# Load=113/1024=11%, Rehash=0, Collisions=19/161=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# include (device 2053, inode 3544437): 20 files, no impossibilities so far.
+# . (device 2053, inode 3544426): 88 files, no impossibilities.
+# src (device 2053, inode 3670691): 22 files, no impossibilities.
+
+# 130 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.cpp include/%.h
+#  recipe to execute (from 'Makefile', line 37):
+	$(CPP) $(CARGS) -c $< -o $@ $(INC) $(CPPLIB) $(CONFIG)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+src/quick_generator.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-08 16:13:56.148602138
+#  File has been updated.
+#  Successfully updated.
+
+esma: obj/quick_generator.o obj/param.o obj/call.o obj/osrm_helper.o obj/data.o obj/fast_equipment.o obj/call_model.o obj/travel.o obj/future.o obj/ambulance.o obj/policy_tester.o obj/cg.o obj/generator_regressor.o obj/full_model_det.o obj/generator.o obj/quick_generator_regressor.o obj/main.o obj/instance.o obj/solver.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-26 12:04:43.424815276
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+#  recipe to execute (from 'Makefile', line 34):
+	$(CPP) $^ -lm -o $@ $(CPPLIB) $(CONFIG)
+
+# Not a target:
+obj/call.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: esma
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+
+# Not a target:
+obj/future.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/data.o:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/quick_generator_regressor.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-13 17:49:39.522262092
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/cg.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/ambulance.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/param.o: src/param.cpp include/param.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'param'
+#  Last modified 2022-08-13 17:49:53.174190405
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/param.o
+# automatic
+# % := 
+# automatic
+# * := param
+# automatic
+# + := src/param.cpp include/param.h
+# automatic
+# | := 
+# automatic
+# < := src/param.cpp
+# automatic
+# ^ := src/param.cpp include/param.h
+# automatic
+# ? := src/param.cpp include/param.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/20=15%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CPP) $(CARGS) -c $< -o $@ $(INC) $(CPPLIB) $(CONFIG)
+
+# Not a target:
+obj/generator_regressor.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/quick_generator.o: src/quick_generator.cpp include/quick_generator.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'quick_generator'
+#  Last modified 2022-08-13 17:49:51.8021976
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 37):
+	$(CPP) $(CARGS) -c $< -o $@ $(INC) $(CPPLIB) $(CONFIG)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/policy_tester.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/generator.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/param.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-26 14:12:38.246298927
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/fast_equipment.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	$(RM) $(OBJ)
+
+# Not a target:
+obj/travel.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/full_model_det.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/solver.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/quick_generator.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-25 17:23:30.239642
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/osrm_helper.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/instance.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/param.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-26 14:11:50.550480602
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/call_model.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=29/1024=3%, Rehash=0, Collisions=2/71=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 159 / storage = 2486 B / avg = 15 B
+# current buf: size = 8162 B / used = 2486 B / count = 159 / avg = 15 B
+
+# strcache performance: lookups = 180 / hit rate = 11%
+# hash-table stats:
+# Load=159/8192=2%, Rehash=0, Collisions=4/180=2%
+# Finished Make data base on Sat Aug 27 12:50:46 2022
+
+ 

@@ -1,0 +1,2 @@
+queue	forward	priorities	minmax	non_miopyc	preparedness	district	ordered
+Heuristic	A = 10	A = 10	A = 10	A = 12	A = 12	A = 12	A = 14	A = 14	A = 14	A = 16	A = 16	A = 16	A = 18	A = 18	A = 18	A = 20	A = 20	A = 20	A = 30	A = 30	A = 30	

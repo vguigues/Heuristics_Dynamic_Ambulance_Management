@@ -1,0 +1,187 @@
+solver = all
+n_ambulances = 20
+n_bases = 10
+instance = calibration/Scenarios_For_Tests/Real_Data_Continuous_Scenarios/baseScenario.txt
+
+Policy: queue
+Policy queue Status w1: Mean = 6775.900, Max = 67254.206, Mean pen = 22769.762, Max pen  269016.826
+Run times: 5.77e-05     0.07423793603013419     0.234045
+Policy: forward
+Policy forward Status w1: Mean = 6248.790, Max = 68866.805, Mean pen = 21476.210, Max pen  275467.221
+Run times: 5.56e-05     0.07855766731084156     0.2445646
+Policy: priorities
+Policy priorities Status w1: Mean = 6627.330, Max = 67254.206, Mean pen = 22316.067, Max pen  269016.826
+Run times: 5.26e-05     0.07605989439895182     0.2437256
+Policy: minmax
+Policy minmax Status w1: Mean = 7118.941, Max = 71859.645, Mean pen = 23719.908, Max pen  287438.580
+Run times: 6.11e-05     0.08688629993449051     0.283558
+
+
+
+=================================================================
+
+
+solver = all
+n_ambulances = 20
+n_bases = 10
+instance = calibration/Scenarios_For_Tests/Simulated_Data_Continuous_Scenarios/Closest_Hospital/simualtedRealLatLong40.txt
+
+
+Policy: queue
+Policy queue Status w1: Mean = 14324.389, Max = 93183.435, Mean pen = 39301.725, Max pen  372733.740
+Run times: 5.53e-05     0.10598015397500002     0.332696
+Policy: forward
+Policy forward Status w1: Mean = 12804.866, Max = 90715.203, Mean pen = 35779.006, Max pen  362860.813
+Run times: 5.84e-05     0.10393613350000021     0.3023383
+Policy: priorities
+Policy priorities Status w1: Mean = 13919.327, Max = 90754.995, Mean pen = 38026.991, Max pen  363019.979
+Run times: 5.56e-05     0.10801138735   0.3521335
+Policy: minmax
+Policy minmax Status w1: Mean = 16514.709, Max = 104983.099, Mean pen = 44592.661, Max pen  419932.394
+Run times: 5.63e-05     0.13340045747499993     0.46832
+=============== END Two Stage ====================
+
+solver = all
+n_ambulances = 80
+n_bases = 10
+n_scenarios = 10
+
+instance = calibration/Scenarios_For_Tests/Simulated_Data_Continuous_Scenarios/Closest_Hospital/simualtedRealLatLong200.txt
+
+
+Policy: queue
+Policy queue Status w1: Mean = 6236.886, Max = 65584.397, Mean pen = 16955.843, Max pen  262337.588
+Run times: 0.0005906    0.7127280117999997      3.0632515
+Policy: forward
+Policy forward Status w1: Mean = 5192.892, Max = 57036.576, Mean pen = 14412.800, Max pen  228146.303
+Run times: 0.0005603    0.48009158305000066     1.4062488
+Policy: priorities
+Policy priorities Status w1: Mean = 6196.754, Max = 68946.408, Mean pen = 17129.261, Max pen  275785.631
+Run times: 0.0005562    0.6926463506000003      2.8738319
+Policy: minmax
+
+Policy minmax Status w1: Mean = 8647.139, Max = 64337.596, Mean pen = 22513.233, Max pen  257350.384
+Run times: 0.0005398    1.1072279892500012      5.2744525
+=============== END Two Stage ====================
+
+solver = all
+n_ambulances = 80
+n_bases = 10
+n_scenarios = 10
+
+instance = calibration/Scenarios_For_Tests/Simulated_Data_Continuous_Scenarios/Closest_Hospital/simualtedRealLatLong200.txt
+
+
+--h_use_fixed_bases=1
+
+
+Policy: queue
+Policy queue Status w1: Mean = 6234.755, Max = 72244.606, Mean pen = 17053.566, Max pen  288978.426
+Run times: 0.0005949    0.6813028952999985      2.6793302
+Policy: forward
+Policy forward Status w1: Mean = 5109.464, Max = 56486.960, Mean pen = 14119.800, Max pen  225947.841
+Run times: 0.0006566    0.4783120785500007      1.410576
+Policy: priorities
+Policy priorities Status w1: Mean = 6163.275, Max = 68946.408, Mean pen = 16740.979, Max pen  275785.631
+Run times: 0.0005608    0.6902332500000001      2.6513287
+Policy: minmax
+Policy minmax Status w1: Mean = 8593.180, Max = 66277.741, Mean pen = 22236.851, Max pen  265110.962
+Run times: 0.0005212    1.1436170694000056      5.4165584
+=============== END Two Stage ====================
+
+
+solver = all
+n_ambulances = 20
+n_bases = 10
+n_scenarios = 10
+instance = calibration/Scenarios_For_Tests/Simulated_Data_Continuous_Scenarios/Random_Hospital/simualtedRealLatLong40.txt
+
+--h_random_hospital = 1
+
+
+Policy: queue
+Policy queue Status w1: Mean = 6246.602, Max = 44283.889, Mean pen = 17366.988, Max pen  177135.557
+Run times: 3.52e-05     0.011601262750000008    0.0363765
+Policy: forward
+Policy forward Status w1: Mean = 6311.162, Max = 46585.693, Mean pen = 17995.211, Max pen  186342.773
+Run times: 3.72e-05     0.011479081999999991    0.0449603
+Policy: priorities
+Policy priorities Status w1: Mean = 6303.707, Max = 42350.149, Mean pen = 17351.683, Max pen  169400.595
+Run times: 3.36e-05     0.011811157750000006    0.0424609
+Policy: minmax
+Policy minmax Status w1: Mean = 7380.933, Max = 58464.645, Mean pen = 21147.542, Max pen  233858.581
+Run times: 3.54e-05     0.015900708750000006    0.0596074
+=============== END Two Stage ====================
+
+
+
+solver = all
+n_ambulances = 20
+n_bases = 10
+n_scenarios = 10
+instance = calibration/Scenarios_For_Tests/Simulated_Data_Continuous_Scenarios/Random_Hospital/simualtedRealLatLong40.txt
+
+--h_random_hospital = 1
+--h_use_fixed_bases=1
+
+Policy: queue
+Policy queue Status w1: Mean = 6338.876, Max = 46539.173, Mean pen = 18184.675, Max pen  186156.691
+Run times: 3.11e-05     0.012028511000000002    0.0405465
+Policy: forward
+Policy forward Status w1: Mean = 6276.043, Max = 46585.693, Mean pen = 17665.932, Max pen  186342.773
+Run times: 3.72e-05     0.010939835000000009    0.0355638
+Policy: priorities
+Policy priorities Status w1: Mean = 6053.664, Max = 42350.149, Mean pen = 16653.553, Max pen  169400.595
+Run times: 3.24e-05     0.012120254749999995    0.0381093
+Policy: minmax
+Policy minmax Status w1: Mean = 7477.684, Max = 58464.645, Mean pen = 21659.396, Max pen  233858.581
+Run times: 3.77e-05     0.015852283     0.0587436
+=============== END Two Stage ====================
+
+
+solver = all
+n_ambulances = 80
+n_bases = 10
+n_scenarios = 10
+instance = calibration/Scenarios_For_Tests/Simulated_Data_Continuous_Scenarios/Random_Hospital/simualtedRealLatLong200.txt
+
+--h_random_hospital = 1
+
+
+Policy: queue
+Policy queue Status w1: Mean = 9427.024, Max = 74253.752, Mean pen = 26370.587, Max pen  297015.009
+Run times: 0.000752     0.8030992738499995      3.4006019
+Policy: forward
+Policy forward Status w1: Mean = 9244.618, Max = 92243.048, Mean pen = 26137.778, Max pen  368972.192
+Run times: 0.0008316    0.46721991400000007     1.4815502
+Policy: priorities
+Policy priorities Status w1: Mean = 9368.812, Max = 77288.451, Mean pen = 26380.986, Max pen  309153.803
+Run times: 0.0008384    0.7912785127500012      3.3682934
+Policy: minmax
+Policy minmax Status w1: Mean = 12718.330, Max = 94990.497, Mean pen = 33611.331, Max pen  379961.987
+Run times: 0.0007757    1.3639456173000022      7.2985088
+=============== END Two Stage ====================
+
+
+solver = all
+n_ambulances = 80
+n_bases = 10
+n_scenarios = 10
+instance = calibration/Scenarios_For_Tests/Simulated_Data_Continuous_Scenarios/Random_Hospital/simualtedRealLatLong200.txt
+
+--h_random_hospital = 1
+--h_use_fixed_bases = 1
+
+Policy: queue
+Policy queue Status w1: Mean = 9553.595, Max = 74399.580, Mean pen = 26879.420, Max pen  297598.319
+Run times: 0.0007795    0.8175461239999996      3.4400496
+Policy: forward
+Policy forward Status w1: Mean = 9198.846, Max = 86557.889, Mean pen = 25318.419, Max pen  346231.556
+Run times: 0.000986     0.48229600540000084     1.4904118
+Policy: priorities
+Policy priorities Status w1: Mean = 9413.740, Max = 77288.451, Mean pen = 26126.566, Max pen  309153.803
+Run times: 0.0008053    0.8105281575999989      3.4066682
+Policy: minmax
+Policy minmax Status w1: Mean = 12831.790, Max = 92632.740, Mean pen = 34304.367, Max pen  370530.959
+Run times: 0.0007925    1.4022691284500008      7.174879
+=============== END Two Stage ====================

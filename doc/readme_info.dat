@@ -1,0 +1,6 @@
+t g r p l h
+daily_obs(1) ... daily_obs(g)
+
+
+l: number of land types
+h: number of holidays

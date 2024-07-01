@@ -1,0 +1,1481 @@
+Policy: queue
+Time = 65046, index_call = 0, ev = 1, calls_attended = 0, queue = [], policy = queue
+Times: []
+Call Id0, t65046, p1 r34 h7
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6659.32
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6645.41
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6588.05
+	Amb 12, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6581.72
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6585.3
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6609.24
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6586.33
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6609.59
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6611.78
+	Amb 6, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6594.63
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6762.72
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6923.36
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6916.46
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6742.67
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6854.48
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6754.01
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6869.7
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6903.45
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6782.36
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6910.57
+	Queue =>1e+100
+Chosen Amb 12, type 0 | Arr c -1, Arr b 70028.5, Arr f 68287.5 | 0.000000 0.000000(-) pt 1723.55
+==================================
+Time = 65375, index_call = 1, ev = 1, calls_attended = 1, queue = [], policy = queue
+Times: []
+Call Id1, t65375, p3 r18 h3
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6804.4
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6809.79
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6795.33
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6717.99
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6710.96
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6835.36
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6708.28
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6801.42
+	Amb 6, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6689.37
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6710.81
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6782.45
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6836.26
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6734.05
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6709.05
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6701.8
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6718.05
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6813.32
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6741.94
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6865.66
+	Queue =>6807.73
+Chosen Amb 6, type 0 | Arr c -1, Arr b 68224.4, Arr f 67662.7 | 0.000000 0.000000(-) pt 919.613
+==================================
+Time = 65425, index_call = 2, ev = 1, calls_attended = 2, queue = [], policy = queue
+Times: []
+Call Id2, t65425, p0 r44 h7
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7003.77
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6978.54
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6989.08
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7072.36
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7028.37
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7017.6
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7170.06
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7160.85
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7825.01
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7868.93
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7773.2
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7887.28
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7984.62
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7946.72
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8137.26
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8053.56
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8202.38
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8197.9
+	Queue =>7054.63
+Chosen Amb 18, type 0 | Arr c -1, Arr b 70250, Arr f 68509 | 0.000000 0.000000(-) pt 6456.57
+==================================
+Time = 65603, index_call = 3, ev = 1, calls_attended = 3, queue = [], policy = queue
+Times: []
+Call Id3, t65603, p0 r62 h6
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6566.43
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6647.43
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6652.91
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6758.79
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6862.22
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6845.67
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6883.09
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7342.53
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7483.93
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7505.26
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7639.27
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7642.43
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7620.91
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7788.16
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7756.99
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7932.87
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7894.9
+	Queue =>6996.77
+Chosen Amb 14, type 0 | Arr c -1, Arr b 69183.8, Arr f 68197.4 | 0.000000 0.000000(-) pt 4567.69
+==================================
+Time = 66678, index_call = 4, ev = 1, calls_attended = 4, queue = [], policy = queue
+Times: []
+Call Id4, t66678, p1 r49 h0
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5016.87
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5139.16
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5030.74
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5029.23
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5085.07
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4754.69
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5087.52
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5160.1
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5077.76
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5169.91
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5179.82
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5185.91
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5196.49
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5211.28
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5215.59
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5234.62
+	Queue =>5025.53
+Chosen Amb 3, type 1 | Arr c -1, Arr b 68175.7, Arr f 68157.7 | 0.000000 0.000000(-) pt 382.703
+==================================
+Time = 66782, index_call = 5, ev = 1, calls_attended = 5, queue = [], policy = queue
+Times: []
+Call Id5, t66782, p0 r18 h3
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4917.9
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4966.39
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5023.24
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5513.64
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5056.36
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5109.91
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5137.4
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5700.23
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5733.5
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5849.98
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5880.11
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5871.76
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5920.48
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5956.24
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6308.88
+	Queue =>5009.44
+Chosen Amb 8, type 0 | Arr c -1, Arr b 69529.4, Arr f 68967.7 | 0.000000 0.000000(-) pt 3499.26
+==================================
+Time = 67035, index_call = 6, ev = 1, calls_attended = 6, queue = [], policy = queue
+Times: []
+Call Id6, t67035, p3 r49 h0
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4535.39
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4521.04
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4484.71
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4484.26
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4565.79
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4541.01
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4527.39
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4567.82
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4577.44
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4580.27
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4542.23
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4589.66
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4581.46
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4602.96
+	Queue =>4543.79
+Chosen Amb 0, type 0 | Arr c -1, Arr b 68587.7, Arr f 68569.7 | 0.000000 0.000000(-) pt 200.754
+==================================
+Time = 67119, index_call = 7, ev = 1, calls_attended = 7, queue = [], policy = queue
+Times: []
+Call Id7, t67119, p0 r39 h8
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4811.99
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4859
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5496.14
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4908.48
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5570.95
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5639.99
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5085.69
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5771.37
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5812.93
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5911.2
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5917.7
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6090.63
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6117.31
+	Queue =>5053.65
+Chosen Amb 2, type 0 | Arr c -1, Arr b 68664.9, Arr f 68628.2 | 0.000000 0.000000(-) pt 627.8
+==================================
+Time = 67662.74095249429, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = queue
+Times: []
+Return Amb 6, type 0 | Arr c -1, Arr b 68224.4, Arr f 67662.7
+	Amb 6 Base 11 => 4658.89
+	Amb 6 Base 13 => 4666.95
+	Amb 6 Base 19 => 4684.31
+	Amb 6 Base 8 => 4686.19
+	Amb 6 Base 12 => 4671.26
+	Amb 6 Base 10 => 4685.01
+	Amb 6 Base 1 => 4685.1
+	Amb 6 Base 4 => 4683.77
+	Amb 6 Base 5 => 4685.94
+	Amb 6 Base 6 => 4687.01
+	Amb 6 Base 9 => 4687.01
+	Amb 6 Base 18 => 4643.9
+	Amb 6 Base 15 => 4662.21
+	Amb 6 Base 7 => 4680.66
+	Amb 6 Base 0 => 4686.25
+	Amb 6 Base 3 => 4669.68
+	Amb 6 Base 2 => 4687.01
+	Amb 6 Base 14 => 4660.92
+	Amb 6 Base 16 => 4684.47
+	Amb 6 Base 17 => 4685.22
+Chosen Base 18
+==================================
+Time = 68157.7070507433, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = queue
+Times: []
+Return Amb 3, type 1 | Arr c -1, Arr b 68175.7, Arr f 68157.7
+	Amb 3 Base 2 => 4643.9
+	Amb 3 Base 9 => 4643.9
+	Amb 3 Base 3 => 4759.68
+	Amb 3 Base 0 => 4643.14
+	Amb 3 Base 7 => 4643.9
+	Amb 3 Base 10 => 4654.97
+	Amb 3 Base 1 => 4643.9
+	Amb 3 Base 12 => 4643.9
+	Amb 3 Base 4 => 4675.8
+	Amb 3 Base 5 => 4643.9
+	Amb 3 Base 13 => 4643.9
+	Amb 3 Base 8 => 4643.9
+	Amb 3 Base 6 => 4643.9
+	Amb 3 Base 16 => 4643.42
+	Amb 3 Base 19 => 4643.9
+	Amb 3 Base 18 => 4886.51
+	Amb 3 Base 11 => 4643.27
+	Amb 3 Base 17 => 4643.9
+	Amb 3 Base 15 => 4650.81
+	Amb 3 Base 14 => 4643.08
+Chosen Base 14
+==================================
+Time = 68197.42119035762, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = queue
+Times: []
+Return Amb 14, type 0 | Arr c -1, Arr b 69183.8, Arr f 68197.4
+	Amb 14 Base 14 => 4643.08
+	Amb 14 Base 15 => 4981.92
+	Amb 14 Base 19 => 4657.07
+	Amb 14 Base 18 => 4991.36
+	Amb 14 Base 13 => 4668.23
+	Amb 14 Base 11 => 4660.17
+	Amb 14 Base 1 => 4693.74
+	Amb 14 Base 10 => 4684.68
+	Amb 14 Base 12 => 4671.08
+	Amb 14 Base 16 => 4993.15
+	Amb 14 Base 0 => 4993.62
+	Amb 14 Base 9 => 4994.38
+	Amb 14 Base 8 => 4993.55
+	Amb 14 Base 17 => 4993.42
+	Amb 14 Base 2 => 4994.38
+	Amb 14 Base 4 => 4991.13
+	Amb 14 Base 3 => 4977.05
+	Amb 14 Base 5 => 4993.3
+	Amb 14 Base 7 => 4985.27
+	Amb 14 Base 6 => 4994.38
+Chosen Base 14
+==================================
+Time = 68287.48957041242, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = queue
+Times: []
+Return Amb 12, type 0 | Arr c -1, Arr b 70028.5, Arr f 68287.5
+	Amb 12 Base 19 => 4643.08
+	Amb 12 Base 14 => 4976.8
+	Amb 12 Base 15 => 4955.47
+	Amb 12 Base 11 => 4646.18
+	Amb 12 Base 13 => 4654.23
+	Amb 12 Base 18 => 4961.82
+	Amb 12 Base 10 => 4673
+	Amb 12 Base 1 => 4682.06
+	Amb 12 Base 12 => 4659.26
+	Amb 12 Base 16 => 4981.47
+	Amb 12 Base 8 => 4981.87
+	Amb 12 Base 0 => 4981.94
+	Amb 12 Base 9 => 4982.7
+	Amb 12 Base 4 => 4979.45
+	Amb 12 Base 2 => 4982.7
+	Amb 12 Base 5 => 4981.62
+	Amb 12 Base 17 => 4981.74
+	Amb 12 Base 3 => 4965.37
+	Amb 12 Base 6 => 4982.7
+	Amb 12 Base 7 => 4973.59
+Chosen Base 19
+==================================
+Time = 68508.98763667543, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = queue
+Times: []
+Return Amb 18, type 0 | Arr c -1, Arr b 70250, Arr f 68509
+	Amb 18 Base 19 => 4871.66
+	Amb 18 Base 14 => 5868.21
+	Amb 18 Base 15 => 5875.73
+	Amb 18 Base 11 => 4904.45
+	Amb 18 Base 13 => 4905.88
+	Amb 18 Base 18 => 5883.57
+	Amb 18 Base 10 => 4954.46
+	Amb 18 Base 1 => 4981.65
+	Amb 18 Base 12 => 4913.67
+	Amb 18 Base 16 => 5883.57
+	Amb 18 Base 8 => 5882.74
+	Amb 18 Base 0 => 5882.81
+	Amb 18 Base 9 => 5883.57
+	Amb 18 Base 4 => 5880.32
+	Amb 18 Base 2 => 5883.57
+	Amb 18 Base 5 => 5882.49
+	Amb 18 Base 17 => 5883.57
+	Amb 18 Base 3 => 5866.24
+	Amb 18 Base 6 => 5883.57
+	Amb 18 Base 7 => 5874.46
+Chosen Base 19
+==================================
+Time = 68558, index_call = 8, ev = 1, calls_attended = 8, queue = [], policy = queue
+Times: []
+Call Id8, t68558, p1 r43 h7
+	Amb 12, type 0 | Arr c -1, Arr b 70028.5, Arr f 68287.5 => 4871.66
+	Amb 18, type 0 | Arr c -1, Arr b 70250, Arr f 68509 => 4871.66
+	Amb 14, type 0 | Arr c -1, Arr b 69183.8, Arr f 68197.4 => 4876.32
+	Amb 6, type 0 | Arr c -1, Arr b 68772.6, Arr f 67662.7 => 4931.18
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4922.05
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4960.85
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4974.72
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5327.9
+	Amb 3, type 1 | Arr c -1, Arr b 69042.8, Arr f 68157.7 => 5333.98
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5339.54
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5340.69
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5349.7
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5415.71
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5432.27
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5470.81
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5472.74
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5483.87
+	Queue =>4923.51
+Chosen Amb 12, type 0 | Arr c -1, Arr b 73948.9, Arr f 72207.9 | 0.000000 0.000000(-) pt 2094.25
+==================================
+Time = 68569.68129813677, index_call = 8, ev = 0, calls_attended = 9, queue = [], policy = queue
+Times: []
+Return Amb 0, type 0 | Arr c -1, Arr b 68587.7, Arr f 68569.7
+	Amb 0 Base 2 => 5046.19
+	Amb 0 Base 9 => 5197.29
+	Amb 0 Base 3 => 5026.38
+	Amb 0 Base 0 => 5196.42
+	Amb 0 Base 7 => 5035.77
+	Amb 0 Base 10 => 5194.18
+	Amb 0 Base 1 => 5197.29
+	Amb 0 Base 12 => 5147.56
+	Amb 0 Base 4 => 5193.58
+	Amb 0 Base 5 => 5196.06
+	Amb 0 Base 13 => 5138.66
+	Amb 0 Base 8 => 5196.34
+	Amb 0 Base 6 => 5197.29
+	Amb 0 Base 16 => 5197.29
+	Amb 0 Base 19 => 5197.29
+	Amb 0 Base 18 => 5197.29
+	Amb 0 Base 11 => 5137.02
+	Amb 0 Base 17 => 5197.29
+	Amb 0 Base 15 => 5188.33
+	Amb 0 Base 14 => 5179.74
+Chosen Base 3
+==================================
+Time = 68601, index_call = 9, ev = 1, calls_attended = 9, queue = [], policy = queue
+Times: []
+Call Id9, t68601, p0 r38 h1
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5026.38
+	Amb 18, type 0 | Arr c -1, Arr b 70250, Arr f 68509 => 5145.31
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5984.44
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5987.71
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5108.93
+	Amb 0, type 0 | Arr c -1, Arr b 68751.2, Arr f 68569.7 => 5402.21
+	Amb 6, type 0 | Arr c -1, Arr b 68772.6, Arr f 67662.7 => 5289.7
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6147.34
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5369.67
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6289.07
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6248.28
+	Amb 14, type 0 | Arr c -1, Arr b 69183.8, Arr f 68197.4 => 5579.44
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6347.86
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6383.88
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6530
+	Amb 3, type 1 | Arr c -1, Arr b 69042.8, Arr f 68157.7 => 6806.57
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6935.78
+	Queue =>5039.52
+Chosen Amb 10, type 0 | Arr c -1, Arr b 70381.1, Arr f 70371.7 | 0.000000 0.000000(-) pt 1069.24
+==================================
+Time = 68624, index_call = 10, ev = 1, calls_attended = 10, queue = [], policy = queue
+Times: []
+Call Id10, t68624, p1 r53 h7
+	Amb 14, type 0 | Arr c -1, Arr b 69183.8, Arr f 68197.4 => 4683.67
+	Amb 18, type 0 | Arr c -1, Arr b 70250, Arr f 68509 => 6017.38
+	Amb 6, type 0 | Arr c -1, Arr b 68772.6, Arr f 67662.7 => 4741.92
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4733.57
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4761.84
+	Amb 0, type 0 | Arr c -1, Arr b 68751.2, Arr f 68569.7 => 4972.05
+	Amb 3, type 1 | Arr c -1, Arr b 69042.8, Arr f 68157.7 => 5326.55
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5339.96
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5344.19
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5360.04
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5367.4
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5452.4
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5476.24
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5518.81
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5533.07
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5548.31
+	Queue =>4734.27
+Chosen Amb 14, type 0 | Arr c -1, Arr b 74343.6, Arr f 72602.6 | 0.000000 0.000000(-) pt 2234.01
+==================================
+Time = 68628.18723839418, index_call = 10, ev = 0, calls_attended = 11, queue = [], policy = queue
+Times: []
+Return Amb 2, type 0 | Arr c -1, Arr b 68664.9, Arr f 68628.2
+	Amb 2 Base 7 => 4824.69
+	Amb 2 Base 3 => 4827.71
+	Amb 2 Base 4 => 4820.01
+	Amb 2 Base 5 => 4823.48
+	Amb 2 Base 6 => 4826.46
+	Amb 2 Base 2 => 4827.71
+	Amb 2 Base 8 => 4823.88
+	Amb 2 Base 9 => 4827.71
+	Amb 2 Base 12 => 4827.49
+	Amb 2 Base 10 => 4823.35
+	Amb 2 Base 0 => 4826.49
+	Amb 2 Base 1 => 4824.82
+	Amb 2 Base 13 => 4825.77
+	Amb 2 Base 11 => 4827.71
+	Amb 2 Base 19 => 4827.71
+	Amb 2 Base 16 => 4827.71
+	Amb 2 Base 18 => 4827.71
+	Amb 2 Base 15 => 4815.17
+	Amb 2 Base 17 => 4827.71
+	Amb 2 Base 14 => 4803.46
+Chosen Base 14
+==================================
+Time = 68864, index_call = 11, ev = 1, calls_attended = 11, queue = [], policy = queue
+Times: []
+Call Id11, t68864, p0 r37 h3
+	Amb 18, type 0 | Arr c -1, Arr b 70250, Arr f 68509 => 4803.46
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6418.03
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6430.77
+	Amb 6, type 0 | Arr c -1, Arr b 68772.6, Arr f 67662.7 => 5108.93
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6502.23
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5274.34
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5223.44
+	Amb 2, type 0 | Arr c -1, Arr b 69793, Arr f 68628.2 => 5235.33
+	Amb 0, type 0 | Arr c -1, Arr b 68751.2, Arr f 68569.7 => 5519.33
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6814.15
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6951.84
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6966.22
+	Amb 3, type 1 | Arr c -1, Arr b 69042.8, Arr f 68157.7 => 7233.27
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7235.29
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7271.67
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 7688.24
+	Queue =>6584.01
+Chosen Amb 18, type 0 | Arr c -1, Arr b 71443.9, Arr f 70882.2 | 0.000000 0.000000(-) pt 1031.05
+==================================
+Time = 68967.73976738624, index_call = 11, ev = 0, calls_attended = 12, queue = [], policy = queue
+Times: []
+Return Amb 8, type 0 | Arr c -1, Arr b 69529.4, Arr f 68967.7
+	Amb 8 Base 11 => 3986.11
+	Amb 8 Base 13 => 3987.44
+	Amb 8 Base 19 => 3989.86
+	Amb 8 Base 8 => 3985.07
+	Amb 8 Base 12 => 3989.58
+	Amb 8 Base 10 => 3984.41
+	Amb 8 Base 1 => 3986.24
+	Amb 8 Base 4 => 3980.23
+	Amb 8 Base 5 => 3984.57
+	Amb 8 Base 6 => 3988.29
+	Amb 8 Base 9 => 3989.86
+	Amb 8 Base 18 => 3989.86
+	Amb 8 Base 15 => 3989.86
+	Amb 8 Base 7 => 3986.09
+	Amb 8 Base 0 => 3988.34
+	Amb 8 Base 3 => 3989.86
+	Amb 8 Base 2 => 3989.86
+	Amb 8 Base 14 => 3989.45
+	Amb 8 Base 16 => 3989.86
+	Amb 8 Base 17 => 3989.86
+Chosen Base 4
+==================================
+Time = 70281, index_call = 12, ev = 1, calls_attended = 12, queue = [], policy = queue
+Times: []
+Call Id12, t70281, p3 r48 h1
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4332.37
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4375.98
+	Amb 6, type 0 | Arr c -1, Arr b 68772.6, Arr f 67662.7 => 4387.65
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4417.68
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4390.49
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4402.38
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4417.7
+	Amb 0, type 0 | Arr c -1, Arr b 68751.2, Arr f 68569.7 => 4440.11
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 4453.72
+	Amb 8, type 0 | Arr c -1, Arr b 70007, Arr f 68967.7 => 4453.72
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4457.4
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4466.7
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4468.13
+	Amb 2, type 0 | Arr c -1, Arr b 69793, Arr f 68628.2 => 4511.32
+	Amb 3, type 1 | Arr c -1, Arr b 69042.8, Arr f 68157.7 => 4468.13
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 4485.7
+	Queue =>4355.04
+Chosen Amb 1, type 1 | Arr c -1, Arr b 71799.2, Arr f 71789.8 | 0.000000 0.000000(-) pt 43.0798
+==================================
+Time = 70371.65969706845, index_call = 12, ev = 0, calls_attended = 13, queue = [], policy = queue
+Times: []
+Return Amb 10, type 0 | Arr c -1, Arr b 70381.1, Arr f 70371.7
+	Amb 10 Base 19 => 5273.57
+	Amb 10 Base 13 => 5257.44
+	Amb 10 Base 10 => 5237.27
+	Amb 10 Base 1 => 5249.46
+	Amb 10 Base 12 => 5271.75
+	Amb 10 Base 18 => 5756.72
+	Amb 10 Base 15 => 5756.72
+	Amb 10 Base 0 => 5756.72
+	Amb 10 Base 9 => 5294.37
+	Amb 10 Base 11 => 5756.72
+	Amb 10 Base 16 => 5756.72
+	Amb 10 Base 2 => 5756.72
+	Amb 10 Base 8 => 5756.72
+	Amb 10 Base 14 => 5756.72
+	Amb 10 Base 4 => 5756.72
+	Amb 10 Base 3 => 5756.72
+	Amb 10 Base 7 => 5756.72
+	Amb 10 Base 5 => 5756.72
+	Amb 10 Base 17 => 5756.72
+	Amb 10 Base 6 => 5756.72
+Chosen Base 10
+==================================
+Time = 70691, index_call = 13, ev = 1, calls_attended = 13, queue = [], policy = queue
+Times: []
+Call Id13, t70691, p1 r48 h1
+	Amb 10, type 0 | Arr c -1, Arr b 70605.3, Arr f 70371.7 => 5237.27
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5756.72
+	Amb 6, type 0 | Arr c -1, Arr b 68772.6, Arr f 67662.7 => 5327.08
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5826.39
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5367.5
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 5372.1
+	Amb 8, type 0 | Arr c -1, Arr b 70007, Arr f 68967.7 => 5372.1
+	Amb 0, type 0 | Arr c -1, Arr b 68751.2, Arr f 68569.7 => 5373.45
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5830.59
+	Amb 2, type 0 | Arr c -1, Arr b 69793, Arr f 68628.2 => 5489.84
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5964.74
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 5965.5
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6019.01
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6065.61
+	Amb 3, type 1 | Arr c -1, Arr b 69042.8, Arr f 68157.7 => 6106.34
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6154.74
+	Queue =>5301
+Chosen Amb 10, type 0 | Arr c -1, Arr b 72137.7, Arr f 72128.3 | 0.000000 0.000000(-) pt 68.7068
+==================================
+Time = 70882.21430814608, index_call = 13, ev = 0, calls_attended = 14, queue = [], policy = queue
+Times: []
+Return Amb 18, type 0 | Arr c -1, Arr b 71443.9, Arr f 70882.2
+	Amb 18 Base 11 => 7137.24
+	Amb 18 Base 13 => 7137.24
+	Amb 18 Base 19 => 7137.24
+	Amb 18 Base 8 => 7137.24
+	Amb 18 Base 12 => 7137.24
+	Amb 18 Base 10 => 7137.24
+	Amb 18 Base 1 => 7137.24
+	Amb 18 Base 4 => 7137.24
+	Amb 18 Base 5 => 7137.24
+	Amb 18 Base 6 => 7137.24
+	Amb 18 Base 9 => 7137.24
+	Amb 18 Base 18 => 7137.24
+	Amb 18 Base 15 => 7137.24
+	Amb 18 Base 7 => 7137.24
+	Amb 18 Base 0 => 7137.24
+	Amb 18 Base 3 => 7137.24
+	Amb 18 Base 2 => 7137.24
+	Amb 18 Base 14 => 7137.24
+	Amb 18 Base 16 => 7137.24
+	Amb 18 Base 17 => 7137.24
+Chosen Base 11
+==================================
+Time = 71390, index_call = 14, ev = 1, calls_attended = 14, queue = [], policy = queue
+Times: []
+Call Id14, t71390, p1 r64 h9
+	Amb 2, type 0 | Arr c -1, Arr b 69793, Arr f 68628.2 => 7137.24
+	Amb 6, type 0 | Arr c -1, Arr b 68772.6, Arr f 67662.7 => 7223.62
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7317.64
+	Amb 3, type 1 | Arr c -1, Arr b 69042.8, Arr f 68157.7 => 8079.35
+	Amb 18, type 0 | Arr c -1, Arr b 71443.9, Arr f 70882.2 => 7426.39
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8144.55
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7563.41
+	Amb 8, type 0 | Arr c -1, Arr b 70007, Arr f 68967.7 => 7563.41
+	Amb 0, type 0 | Arr c -1, Arr b 68751.2, Arr f 68569.7 => 7566.9
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8364.35
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8455.82
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8656.7
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8657.65
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8685.44
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8989.41
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 9040.58
+	Queue =>7159.24
+Chosen Amb 2, type 0 | Arr c -1, Arr b 73522.1, Arr f 73274.2 | 0.000000 0.000000(-) pt 461.534
+==================================
+Time = 71434, index_call = 15, ev = 1, calls_attended = 15, queue = [], policy = queue
+Times: []
+Call Id15, t71434, p2 r44 h7
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 3, type 1 | Arr c -1, Arr b 69042.8, Arr f 68157.7 => 0
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 18, type 0 | Arr c -1, Arr b 71443.9, Arr f 70882.2 => 0
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 6, type 0 | Arr c -1, Arr b 68772.6, Arr f 67662.7 => 0
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 8, type 0 | Arr c -1, Arr b 70007, Arr f 68967.7 => 0
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 0, type 0 | Arr c -1, Arr b 68751.2, Arr f 68569.7 => 0
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Queue =>13813.3
+Chosen Amb 19, type 1 | Arr c -1, Arr b 76272.6, Arr f 74531.6 | 0.000000 0.000000(-) pt 7275.45
+==================================
+
+
+Call	Wait On Scene(s)	Wait Penalized(s)	Amb:
+Id0, t65046, p1 r34 h7	1723.55	1723.55	12
+Id1, t65375, p3 r18 h3	919.613	919.613	6
+Id2, t65425, p0 r44 h7	1614.14	6456.57	18
+Id3, t65603, p0 r62 h6	1141.92	4567.69	14
+Id4, t66678, p1 r49 h0	191.351	382.703	3
+Id5, t66782, p0 r18 h3	874.814	3499.26	8
+Id6, t67035, p3 r49 h0	200.754	200.754	0
+Id7, t67119, p0 r39 h8	156.95	627.8	2
+Id8, t68558, p1 r43 h7	2094.25	2094.25	12
+Id9, t68601, p0 r38 h1	267.31	1069.24	10
+Id10, t68624, p1 r53 h7	2234.01	2234.01	14
+Id11, t68864, p0 r37 h3	257.762	1031.05	18
+Id12, t70281, p3 r48 h1	43.0798	43.0798	1
+Id13, t70691, p1 r48 h1	68.7068	68.7068	10
+Id14, t71390, p1 r64 h9	461.534	461.534	2
+Id15, t71434, p2 r44 h7	1818.86	7275.45	19
+Policy queue Mean pen = 2041.0, Max pen = 7275.4
+Run times: 0.000144723	0.008773228125000001	0.023466512
+Policy: cg
+Time = 65046, index_call = 0, ev = 1, calls_attended = 0, queue = [], policy = cg
+Times: []
+Call Id0, t65046, p1 r34 h7
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79585.4
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79142.6
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 86190.4
+	Amb 12, type 0 | Arr c -1, Arr b 0, Arr f -1 => 86309.2
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 86199
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 86132.4
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 86156.3
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 86134.1
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79064.8
+	Amb 6, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78965.5
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 86994.5
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 87171.8
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 87120.7
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 87207.7
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 90510.4
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 90817.9
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 88033.3
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 88160.5
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 88201.9
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 88299.4
+	Queue =>1e+100
+Chosen Amb 6, type 0 | Arr c -1, Arr b 70372.1, Arr f 68631.1 | 0.000000 0.000000(-) pt 2067.15
+==================================
+Time = 65375, index_call = 1, ev = 1, calls_attended = 1, queue = [], policy = cg
+Times: []
+Call Id1, t65375, p3 r18 h3
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79510.5
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79507.7
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79599
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78649.1
+	Amb 12, type 0 | Arr c -1, Arr b 0, Arr f -1 => 77808.5
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78655.1
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79751.4
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78656.7
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79762.5
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79818.3
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79214.7
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79872.1
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79903.6
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79957.9
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78807.2
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78910.3
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79766.2
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78963.1
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 80345.8
+	Queue =>115378
+Chosen Amb 12, type 0 | Arr c -1, Arr b 68022.2, Arr f 67460.5 | 0.000000 0.000000(-) pt 717.358
+==================================
+Time = 65425, index_call = 2, ev = 1, calls_attended = 2, queue = [], policy = cg
+Times: []
+Call Id2, t65425, p0 r44 h7
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79241
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78951.8
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79188.2
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79732.7
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 79440.6
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 77812.9
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78271.2
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78528.6
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 88253.3
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 90712.4
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 90657.6
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 90758.6
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 92154.4
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 91546.4
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 92773.6
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 93168.3
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 93180.1
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 93246.8
+	Queue =>223949
+Chosen Amb 0, type 0 | Arr c -1, Arr b 70515.1, Arr f 68774.1 | 0.000000 0.000000(-) pt 7517.03
+==================================
+Time = 65603, index_call = 3, ev = 1, calls_attended = 3, queue = [], policy = cg
+Times: []
+Call Id3, t65603, p0 r62 h6
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 63895.3
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 64982.4
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 65562.3
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 65789.6
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 66707.4
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 66964.5
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 66985
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 75742.2
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 76197.4
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 77166.8
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 78020.3
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 78069.2
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79530
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 79901.3
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 81403.9
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 81640.7
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 81652.4
+	Queue =>207866
+Chosen Amb 14, type 0 | Arr c -1, Arr b 69183.8, Arr f 68197.4 | 0.000000 0.000000(-) pt 4567.69
+==================================
+Time = 66678, index_call = 4, ev = 1, calls_attended = 4, queue = [], policy = cg
+Times: []
+Call Id4, t66678, p1 r49 h0
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 46765
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 48092.7
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 47108
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 46958.4
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 48294.8
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 47608.5
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 48445.8
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 47178
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 47310.7
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 48487.1
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 48682.6
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 48742.7
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 48861.1
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 49050.5
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 49234.9
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 49330.5
+	Queue =>82943.7
+Chosen Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 | 0.000000 0.000000(-) pt 103.273
+==================================
+Time = 66782, index_call = 5, ev = 1, calls_attended = 5, queue = [], policy = cg
+Times: []
+Call Id5, t66782, p0 r18 h3
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 46214.3
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 46582.2
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 46624.7
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 47336.8
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 52622.1
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 48231.5
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 54674.6
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 55028.6
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 56315
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 56540.3
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 57065.7
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 57347.6
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 57616.7
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 57681.5
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 61362.9
+	Queue =>187755
+Chosen Amb 8, type 0 | Arr c -1, Arr b 69529.4, Arr f 68967.7 | 0.000000 0.000000(-) pt 3499.26
+==================================
+Time = 67035, index_call = 6, ev = 1, calls_attended = 6, queue = [], policy = cg
+Times: []
+Call Id6, t67035, p3 r49 h0
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 36875.7
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 37427.4
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37106.8
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37129
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37199.3
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 38334.7
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37208
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37292.3
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37447.8
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 37553.1
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 37435.1
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37426.5
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37478.1
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37559.4
+	Queue =>72949.9
+Chosen Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 | 0.000000 0.000000(-) pt 1.87801
+==================================
+Time = 67119, index_call = 7, ev = 1, calls_attended = 7, queue = [], policy = cg
+Times: []
+Call Id7, t67119, p0 r39 h8
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 36816
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 31800.9
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37400.3
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 32524.4
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 38833.2
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 33786.7
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 33969
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 39849.5
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 40402.4
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 41286.9
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 41333.4
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 43029.4
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 43141.9
+	Queue =>178615
+Chosen Amb 4, type 0 | Arr c -1, Arr b 68693.5, Arr f 68656.8 | 0.000000 0.000000(-) pt 742.195
+==================================
+Time = 67460.48642196422, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = cg
+Times: []
+Return Amb 12, type 0 | Arr c -1, Arr b 68022.2, Arr f 67460.5
+	Amb 12 Base 11 => 25649.8
+	Amb 12 Base 13 => 25649.8
+	Amb 12 Base 19 => 25649.8
+	Amb 12 Base 8 => 25649.8
+	Amb 12 Base 12 => 25649.8
+	Amb 12 Base 10 => 25649.8
+	Amb 12 Base 1 => 25649.8
+	Amb 12 Base 4 => 25649.8
+	Amb 12 Base 5 => 25649.8
+	Amb 12 Base 6 => 25649.8
+	Amb 12 Base 9 => 25649.8
+	Amb 12 Base 18 => 25649.8
+	Amb 12 Base 15 => 25649.8
+	Amb 12 Base 7 => 25649.8
+	Amb 12 Base 0 => 25649.8
+	Amb 12 Base 3 => 25649.8
+	Amb 12 Base 2 => 25649.8
+	Amb 12 Base 14 => 25649.8
+	Amb 12 Base 16 => 25649.8
+	Amb 12 Base 17 => 25649.8
+Chosen Base 11
+==================================
+Time = 68069.62862338056, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = cg
+Times: []
+Return Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6
+	Amb 2 Base 2 => 25649.8
+	Amb 2 Base 9 => 25649.8
+	Amb 2 Base 3 => 25649.8
+	Amb 2 Base 0 => 25649.8
+	Amb 2 Base 7 => 25649.8
+	Amb 2 Base 10 => 25649.8
+	Amb 2 Base 1 => 25649.8
+	Amb 2 Base 12 => 25649.8
+	Amb 2 Base 4 => 25649.8
+	Amb 2 Base 5 => 25649.8
+	Amb 2 Base 13 => 25649.8
+	Amb 2 Base 8 => 25649.8
+	Amb 2 Base 6 => 25649.8
+	Amb 2 Base 16 => 25649.8
+	Amb 2 Base 19 => 25649.8
+	Amb 2 Base 18 => 25649.8
+	Amb 2 Base 11 => 25649.8
+	Amb 2 Base 17 => 25649.8
+	Amb 2 Base 15 => 25649.8
+	Amb 2 Base 14 => 25649.8
+Chosen Base 2
+==================================
+Time = 68197.42119035762, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = cg
+Times: []
+Return Amb 14, type 0 | Arr c -1, Arr b 69183.8, Arr f 68197.4
+	Amb 14 Base 14 => 26038.7
+	Amb 14 Base 15 => 26038.7
+	Amb 14 Base 19 => 26038.7
+	Amb 14 Base 18 => 26038.7
+	Amb 14 Base 13 => 26038.7
+	Amb 14 Base 11 => 26038.7
+	Amb 14 Base 1 => 26038.7
+	Amb 14 Base 10 => 26038.7
+	Amb 14 Base 12 => 26038.7
+	Amb 14 Base 16 => 26038.7
+	Amb 14 Base 0 => 26038.7
+	Amb 14 Base 9 => 26038.7
+	Amb 14 Base 8 => 26038.7
+	Amb 14 Base 17 => 26038.7
+	Amb 14 Base 2 => 26038.7
+	Amb 14 Base 4 => 26038.7
+	Amb 14 Base 3 => 26038.7
+	Amb 14 Base 5 => 26038.7
+	Amb 14 Base 7 => 26038.7
+	Amb 14 Base 6 => 26038.7
+Chosen Base 14
+==================================
+Time = 68370.80561976967, index_call = 7, ev = 0, calls_attended = 8, queue = [], policy = cg
+Times: []
+Return Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8
+	Amb 9 Base 2 => 26441.8
+	Amb 9 Base 9 => 26441.8
+	Amb 9 Base 3 => 26441.8
+	Amb 9 Base 0 => 26441.8
+	Amb 9 Base 7 => 26441.8
+	Amb 9 Base 10 => 26441.8
+	Amb 9 Base 1 => 26441.8
+	Amb 9 Base 12 => 26441.8
+	Amb 9 Base 4 => 26441.8
+	Amb 9 Base 5 => 26441.8
+	Amb 9 Base 13 => 26441.8
+	Amb 9 Base 8 => 26441.8
+	Amb 9 Base 6 => 26441.8
+	Amb 9 Base 16 => 26441.8
+	Amb 9 Base 19 => 26441.8
+	Amb 9 Base 18 => 26441.8
+	Amb 9 Base 11 => 26441.8
+	Amb 9 Base 17 => 26441.8
+	Amb 9 Base 15 => 26441.8
+	Amb 9 Base 14 => 26441.8
+Chosen Base 2
+==================================
+Time = 68558, index_call = 8, ev = 1, calls_attended = 8, queue = [], policy = cg
+Times: []
+Call Id8, t68558, p1 r43 h7
+	Amb 14, type 0 | Arr c -1, Arr b 69183.8, Arr f 68197.4 => 32988.7
+	Amb 12, type 0 | Arr c -1, Arr b 68022.2, Arr f 67460.5 => 33016.4
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 33061.2
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 33878.4
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 33328.8
+	Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 => 33514
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 36596.8
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 36665.6
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 36699.1
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 36771.2
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37172.9
+	Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 => 37726.9
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37740.1
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37755.6
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37833.2
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37844.5
+	Queue =>67527
+Chosen Amb 14, type 0 | Arr c -1, Arr b 73956.5, Arr f 72215.5 | 0.000000 0.000000(-) pt 2101.77
+==================================
+Time = 68601, index_call = 9, ev = 1, calls_attended = 9, queue = [], policy = cg
+Times: []
+Call Id9, t68601, p0 r38 h1
+	Amb 12, type 0 | Arr c -1, Arr b 68022.2, Arr f 67460.5 => 31194.8
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 31558.6
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37870.9
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 37893.8
+	Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 => 32655.6
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 32944.9
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 39011.2
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 33479.8
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 39564.9
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 40414.8
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 40666.9
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 40726.1
+	Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 => 40769.4
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 41933.1
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 44530.2
+	Queue =>175100
+Chosen Amb 12, type 0 | Arr c -1, Arr b 70281, Arr f 70271.6 | 0.000000 0.000000(-) pt 669.151
+==================================
+Time = 68624, index_call = 10, ev = 1, calls_attended = 10, queue = [], policy = cg
+Times: []
+Call Id10, t68624, p1 r53 h7
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 16299
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 16432.4
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 16510.5
+	Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 => 18438.4
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 21879.6
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 21903.1
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 22022.5
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 20650.6
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 20957.3
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 22975.1
+	Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 => 23014.1
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 23060.6
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 23133.5
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 23152.1
+	Queue =>24059.3
+Chosen Amb 18, type 0 | Arr c -1, Arr b 74470.8, Arr f 72729.8 | 0.000000 0.000000(-) pt 2361.22
+==================================
+Time = 68631.08503708035, index_call = 10, ev = 0, calls_attended = 11, queue = [], policy = cg
+Times: []
+Return Amb 6, type 0 | Arr c -1, Arr b 70372.1, Arr f 68631.1
+	Amb 6 Base 19 => 12193.2
+	Amb 6 Base 14 => 12193.2
+	Amb 6 Base 15 => 12193.2
+	Amb 6 Base 11 => 12193.2
+	Amb 6 Base 13 => 12193.2
+	Amb 6 Base 18 => 12193.2
+	Amb 6 Base 10 => 12193.2
+	Amb 6 Base 1 => 12193.2
+	Amb 6 Base 12 => 12193.2
+	Amb 6 Base 16 => 12193.2
+	Amb 6 Base 8 => 12193.2
+	Amb 6 Base 0 => 12193.2
+	Amb 6 Base 9 => 12193.2
+	Amb 6 Base 4 => 12193.2
+	Amb 6 Base 2 => 12193.2
+	Amb 6 Base 5 => 12193.2
+	Amb 6 Base 17 => 12193.2
+	Amb 6 Base 3 => 12193.2
+	Amb 6 Base 6 => 12193.2
+	Amb 6 Base 7 => 12193.2
+Chosen Base 19
+==================================
+Time = 68656.78588449383, index_call = 10, ev = 0, calls_attended = 11, queue = [], policy = cg
+Times: []
+Return Amb 4, type 0 | Arr c -1, Arr b 68693.5, Arr f 68656.8
+	Amb 4 Base 7 => 14059.9
+	Amb 4 Base 3 => 14059.9
+	Amb 4 Base 4 => 14059.9
+	Amb 4 Base 5 => 14059.9
+	Amb 4 Base 6 => 14059.9
+	Amb 4 Base 2 => 14059.9
+	Amb 4 Base 8 => 14059.9
+	Amb 4 Base 9 => 14059.9
+	Amb 4 Base 12 => 14059.9
+	Amb 4 Base 10 => 14059.9
+	Amb 4 Base 0 => 14059.9
+	Amb 4 Base 1 => 14059.9
+	Amb 4 Base 13 => 14059.9
+	Amb 4 Base 11 => 14059.9
+	Amb 4 Base 19 => 14059.9
+	Amb 4 Base 16 => 14059.9
+	Amb 4 Base 18 => 14059.9
+	Amb 4 Base 15 => 14059.9
+	Amb 4 Base 17 => 14059.9
+	Amb 4 Base 14 => 14059.9
+Chosen Base 7
+==================================
+Time = 68774.10294581238, index_call = 10, ev = 0, calls_attended = 11, queue = [], policy = cg
+Times: []
+Return Amb 0, type 0 | Arr c -1, Arr b 70515.1, Arr f 68774.1
+	Amb 0 Base 19 => 12237.5
+	Amb 0 Base 14 => 12237.5
+	Amb 0 Base 15 => 12237.5
+	Amb 0 Base 11 => 12237.5
+	Amb 0 Base 13 => 12237.5
+	Amb 0 Base 18 => 12237.5
+	Amb 0 Base 10 => 12237.5
+	Amb 0 Base 1 => 12237.5
+	Amb 0 Base 12 => 12237.5
+	Amb 0 Base 16 => 12237.5
+	Amb 0 Base 8 => 12237.5
+	Amb 0 Base 0 => 12237.5
+	Amb 0 Base 9 => 12237.5
+	Amb 0 Base 4 => 12237.5
+	Amb 0 Base 2 => 12237.5
+	Amb 0 Base 5 => 12237.5
+	Amb 0 Base 17 => 12237.5
+	Amb 0 Base 3 => 12237.5
+	Amb 0 Base 6 => 12237.5
+	Amb 0 Base 7 => 12237.5
+Chosen Base 19
+==================================
+Time = 68864, index_call = 11, ev = 1, calls_attended = 11, queue = [], policy = cg
+Times: []
+Call Id11, t68864, p0 r37 h3
+	Amb 0, type 0 | Arr c -1, Arr b 70515.1, Arr f 68774.1 => 18163.3
+	Amb 6, type 0 | Arr c -1, Arr b 70372.1, Arr f 68631.1 => 18163.3
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 18824.7
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 26235
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 26298.7
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 26656.1
+	Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 => 20128.3
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 20184
+	Amb 4, type 0 | Arr c -1, Arr b 68693.5, Arr f 68656.8 => 20296.3
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 28012.3
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 28884.3
+	Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 => 30167.3
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 30321.3
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 30446.1
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 30503.3
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 32586.1
+	Queue =>20754.3
+Chosen Amb 0, type 0 | Arr c -1, Arr b 71443.9, Arr f 70882.2 | 0.000000 0.000000(-) pt 1031.05
+==================================
+Time = 68967.73976738624, index_call = 11, ev = 0, calls_attended = 12, queue = [], policy = cg
+Times: []
+Return Amb 8, type 0 | Arr c -1, Arr b 69529.4, Arr f 68967.7
+	Amb 8 Base 11 => 10090.4
+	Amb 8 Base 13 => 10090.4
+	Amb 8 Base 19 => 10090.4
+	Amb 8 Base 8 => 10090.4
+	Amb 8 Base 12 => 10090.4
+	Amb 8 Base 10 => 10090.4
+	Amb 8 Base 1 => 10090.4
+	Amb 8 Base 4 => 10090.4
+	Amb 8 Base 5 => 10090.4
+	Amb 8 Base 6 => 10090.4
+	Amb 8 Base 9 => 10090.4
+	Amb 8 Base 18 => 10090.4
+	Amb 8 Base 15 => 10090.4
+	Amb 8 Base 7 => 10090.4
+	Amb 8 Base 0 => 10090.4
+	Amb 8 Base 3 => 10090.4
+	Amb 8 Base 2 => 10090.4
+	Amb 8 Base 14 => 10090.4
+	Amb 8 Base 16 => 10090.4
+	Amb 8 Base 17 => 10090.4
+Chosen Base 11
+==================================
+Time = 70271.63736753218, index_call = 11, ev = 0, calls_attended = 12, queue = [], policy = cg
+Times: []
+Return Amb 12, type 0 | Arr c -1, Arr b 70281, Arr f 70271.6
+	Amb 12 Base 19 => 8110.7
+	Amb 12 Base 13 => 8110.7
+	Amb 12 Base 10 => 8110.7
+	Amb 12 Base 1 => 8110.7
+	Amb 12 Base 12 => 8110.7
+	Amb 12 Base 18 => 8110.7
+	Amb 12 Base 15 => 8110.7
+	Amb 12 Base 0 => 8110.7
+	Amb 12 Base 9 => 8110.7
+	Amb 12 Base 11 => 8110.7
+	Amb 12 Base 16 => 8110.7
+	Amb 12 Base 2 => 8110.7
+	Amb 12 Base 8 => 8110.7
+	Amb 12 Base 14 => 8110.7
+	Amb 12 Base 4 => 8110.7
+	Amb 12 Base 3 => 8110.7
+	Amb 12 Base 7 => 8110.7
+	Amb 12 Base 5 => 8110.7
+	Amb 12 Base 17 => 8110.7
+	Amb 12 Base 6 => 8110.7
+Chosen Base 19
+==================================
+Time = 70281, index_call = 12, ev = 1, calls_attended = 12, queue = [], policy = cg
+Times: []
+Call Id12, t70281, p3 r48 h1
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 9923.73
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 10130
+	Amb 6, type 0 | Arr c -1, Arr b 70372.1, Arr f 68631.1 => 10152.8
+	Amb 12, type 0 | Arr c -1, Arr b 70281, Arr f 70271.6 => 10152.8
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 10152.8
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 10156.2
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 10203.7
+	Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 => 10222.4
+	Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 => 10222.4
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 10265
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 10354.7
+	Amb 4, type 0 | Arr c -1, Arr b 68693.5, Arr f 68656.8 => 10423.8
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 10423.8
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 10461
+	Amb 8, type 0 | Arr c -1, Arr b 69529.4, Arr f 68967.7 => 10466.8
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 10466.8
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 10537
+	Queue =>45860.1
+Chosen Amb 1, type 1 | Arr c -1, Arr b 71799.2, Arr f 71789.8 | 0.000000 0.000000(-) pt 43.0798
+==================================
+Time = 70691, index_call = 13, ev = 1, calls_attended = 13, queue = [], policy = cg
+Times: []
+Call Id13, t70691, p1 r48 h1
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6619.74
+	Amb 6, type 0 | Arr c -1, Arr b 70372.1, Arr f 68631.1 => 6728.66
+	Amb 12, type 0 | Arr c -1, Arr b 70281, Arr f 70271.6 => 6728.66
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8178.09
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8274.9
+	Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 => 6942.35
+	Amb 8, type 0 | Arr c -1, Arr b 69529.4, Arr f 68967.7 => 6992.28
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 7010.43
+	Amb 4, type 0 | Arr c -1, Arr b 68693.5, Arr f 68656.8 => 7073.7
+	Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 => 8702.29
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8802.15
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8804.43
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8874.18
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 8964.98
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 9104.78
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 9372.17
+	Queue =>44110.7
+Chosen Amb 10, type 0 | Arr c -1, Arr b 72137.7, Arr f 72128.3 | 0.000000 0.000000(-) pt 68.7068
+==================================
+Time = 70882.21430814608, index_call = 13, ev = 0, calls_attended = 14, queue = [], policy = cg
+Times: []
+Return Amb 0, type 0 | Arr c -1, Arr b 71443.9, Arr f 70882.2
+	Amb 0 Base 11 => 5182.41
+	Amb 0 Base 13 => 5182.41
+	Amb 0 Base 19 => 5182.41
+	Amb 0 Base 8 => 5182.41
+	Amb 0 Base 12 => 5182.41
+	Amb 0 Base 10 => 5182.41
+	Amb 0 Base 1 => 5182.41
+	Amb 0 Base 4 => 5182.41
+	Amb 0 Base 5 => 5182.41
+	Amb 0 Base 6 => 5182.41
+	Amb 0 Base 9 => 5182.41
+	Amb 0 Base 18 => 5182.41
+	Amb 0 Base 15 => 5182.41
+	Amb 0 Base 7 => 5182.41
+	Amb 0 Base 0 => 5182.41
+	Amb 0 Base 3 => 5182.41
+	Amb 0 Base 2 => 5182.41
+	Amb 0 Base 14 => 5182.41
+	Amb 0 Base 16 => 5182.41
+	Amb 0 Base 17 => 5182.41
+Chosen Base 11
+==================================
+Time = 71390, index_call = 14, ev = 1, calls_attended = 14, queue = [], policy = cg
+Times: []
+Call Id14, t71390, p1 r64 h9
+	Amb 6, type 0 | Arr c -1, Arr b 70372.1, Arr f 68631.1 => 13996.1
+	Amb 12, type 0 | Arr c -1, Arr b 70281, Arr f 70271.6 => 13996.1
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 14128
+	Amb 0, type 0 | Arr c -1, Arr b 71443.9, Arr f 70882.2 => 14345.5
+	Amb 8, type 0 | Arr c -1, Arr b 69529.4, Arr f 68967.7 => 14345.5
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 15781.8
+	Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 => 14507.6
+	Amb 4, type 0 | Arr c -1, Arr b 68693.5, Arr f 68656.8 => 14677.2
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 16109.2
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 16404.3
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 16806.1
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 16808
+	Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 => 17132.2
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 17370
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 17471.5
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 17573.9
+	Queue =>49648.7
+Chosen Amb 6, type 0 | Arr c -1, Arr b 73751, Arr f 73503.1 | 0.000000 0.000000(-) pt 690.442
+==================================
+Time = 71434, index_call = 15, ev = 1, calls_attended = 15, queue = [], policy = cg
+Times: []
+Call Id15, t71434, p2 r44 h7
+	Amb 12, type 0 | Arr c -1, Arr b 70281, Arr f 70271.6 => 0
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 0, type 0 | Arr c -1, Arr b 71443.9, Arr f 70882.2 => 0
+	Amb 8, type 0 | Arr c -1, Arr b 69529.4, Arr f 68967.7 => 0
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 2, type 0 | Arr c -1, Arr b 68087.6, Arr f 68069.6 => 0
+	Amb 9, type 1 | Arr c -1, Arr b 68388.8, Arr f 68370.8 => 0
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Amb 4, type 0 | Arr c -1, Arr b 68693.5, Arr f 68656.8 => 0
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 0
+	Queue =>149182
+Chosen Amb 12, type 0 | Arr c -1, Arr b 76272.6, Arr f 74531.6 | 0.000000 0.000000(-) pt 7275.45
+==================================
+Call	Wait On Scene(s)	Wait Penalized(s)	Amb:
+Id0, t65046, p1 r34 h7	2067.15	2067.15	6
+Id1, t65375, p3 r18 h3	717.358	717.358	12
+Id2, t65425, p0 r44 h7	1879.26	7517.03	0
+Id3, t65603, p0 r62 h6	1141.92	4567.69	14
+Id4, t66678, p1 r49 h0	103.273	103.273	2
+Id5, t66782, p0 r18 h3	874.814	3499.26	8
+Id6, t67035, p3 r49 h0	1.87801	1.87801	9
+Id7, t67119, p0 r39 h8	185.549	742.195	4
+Id8, t68558, p1 r43 h7	2101.77	2101.77	14
+Id9, t68601, p0 r38 h1	167.288	669.151	12
+Id10, t68624, p1 r53 h7	2361.22	2361.22	18
+Id11, t68864, p0 r37 h3	257.762	1031.05	0
+Id12, t70281, p3 r48 h1	43.0798	43.0798	1
+Id13, t70691, p1 r48 h1	68.7068	68.7068	10
+Id14, t71390, p1 r64 h9	690.442	690.442	6
+Id15, t71434, p2 r44 h7	1818.86	7275.45	12
+Policy cg Mean pen = 2066.0, Max pen = 7517.0
+Run times: 4.53414104	729.009145312375	1419.405526057
+Policy queue Mean pen = 2041.0, Max pen = 7275.4
+Run times: 0.000144723	0.008773228125000001	0.023466512
+Policy cg Mean pen = 2066.0, Max pen = 7517.0
+Run times: 4.53414104	729.009145312375	1419.405526057
+
+
+
+
+Time = 65046, index_call = 0, ev = 1, calls_attended = 0, queue = [], policy = cg
+Times: []
+Call Id0, t65046, p1 r34 h7
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 78402.5
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 77981.2
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 84564.8
+	Amb 12, type 0 | Arr c -1, Arr b 0, Arr f -1 => 84717.1
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 84799.3
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 84473
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 84498
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 84495.3
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 77944.2
+	Amb 6, type 0 | Arr c -1, Arr b 0, Arr f -1 => 77853
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 85739.3
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 85922.5
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 85858
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 85945
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 89032.7
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 89272.6
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 86770.6
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 86897.8
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 86954.2
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 87036.7
+	Queue =>1e+100
+Chosen Amb 6, type 0 | Arr c -1, Arr b 70372.1, Arr f 68631.1 | 0.000000 0.000000(-) pt 2067.15
+==================================
+
+
+Time = 65046, index_call = 0, ev = 1, calls_attended = 0, queue = [], policy = queue
+Times: []
+Call Id0, t65046, p1 r34 h7
+	Amb 14, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6659.32
+	Amb 18, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6645.41
+	Amb 10, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6588.05
+	Amb 12, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6581.72
+	Amb 8, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6585.3
+	Amb 16, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6609.24
+	Amb 0, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6586.33
+	Amb 4, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6609.59
+	Amb 2, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6611.78
+	Amb 6, type 0 | Arr c -1, Arr b 0, Arr f -1 => 6594.63
+	Amb 19, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6762.72
+	Amb 11, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6923.36
+	Amb 13, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6916.46
+	Amb 15, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6742.67
+	Amb 1, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6854.48
+	Amb 9, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6754.01
+	Amb 5, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6869.7
+	Amb 7, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6903.45
+	Amb 3, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6782.36
+	Amb 17, type 1 | Arr c -1, Arr b 0, Arr f -1 => 6910.57
+	Queue =>1e+100
+Chosen Amb 12, type 0 | Arr c -1, Arr b 70028.5, Arr f 68287.5 | 0.000000 0.000000(-) pt 1723.55
+==================================
+
+
+
+
+begin_time = 65046, time = 65375
+Id0, t65375, p3 r18 h3
+Id1, t65425, p0 r44 h7
+Id2, t65603, p0 r62 h6
+Id3, t66678, p1 r49 h0
+Id4, t66782, p0 r18 h3
+Id5, t67035, p3 r49 h0
+Id6, t67119, p0 r39 h8
+Id7, t68558, p1 r43 h7
+Id8, t68601, p0 r38 h1
+Id9, t68624, p1 r53 h7
+Id10, t68864, p0 r37 h3
+Id11, t70281, p3 r48 h1
+Id12, t70691, p1 r48 h1
+Id13, t71390, p1 r64 h9
+Id14, t71434, p2 r44 h7
+
+
+a0_h7 -> t4
+
+x0_a0_b12_h3 = 1 -> t1
+
+xt1_c0_a0_b2_l39_h8 = 1 -> t2
+xt1_c0_a0_b14_l62_h6 = 1 -> t3
+xt1_c0_a0_b18_l44_h7 = 1 -> t2
+xt1_c0_a0_h'3_l18_h3 = 1 -> t2
+xt1_c1_a0_b0_l49_h0 = 1 -> t2
+xt1_c3_a1_b9_l49_h0 = 1 -> t2
+
+
+xt2_c0_a0_b10_l38_h1 = 1 -> t3
+xt2_c0_a0_h'3_l37_h3 = 1 -> t3
+xt2_c1_a0_b16_l53_h7 = 1 -> t3
+xt2_c1_a0_h'7_l43_h7 = 1 -> t3
+yt2_a0_h0_b1 = 1
+yt2_a0_h8_b14 = 1
+yt2_a1_h0_b7 = 1
+
+
+xt3_c1_a0_b1_l48_h1 = 1 -> t4
+xt3_c1_a0_b14_l64_h9 = 1 -> t4
+xt3_c2_a0_h'7_l44_h7 = 1 -> t4
+xt3_c3_a1_b1_l48_h1 = 1 -> t4
+yt3_a0_h1_b4 = 1
+yt3_a0_h3_b4 = 1
+yt3_a0_h6_b10 = 1
+yt3_a0_h7_b10 = 1
+
+
+yt4_a0_h1_b10 = 1
+yt4_a0_h7_b4 = 2
+yt4_a0_h9_b4 = 1
+yt4_a1_h1_b5 = 1
+
+
+num_calls_t = 5
+
+Call	Wait On Scene(s)	Wait Penalized(s)	Amb:
+Id0, t65046, p1 r34 h7	1597.86	3195.72	15
+Id1, t65375, p3 r18 h3	1031.88	1031.88	3
+Id2, t65425, p0 r44 h7	1843.31	7373.24	16
+Id3, t65603, p0 r62 h6	1141.92	4567.69	14
+Id4, t65690, p0 r57 h9	371.959	1487.84	18
+Id5, t66678, p1 r49 h0	103.273	103.273	2
+Id6, t66782, p0 r18 h3	874.814	3499.26	8
+Id7, t67035, p3 r49 h0	325.508	325.508	7
+Id8, t67119, p0 r39 h8	185.549	742.195	4
+Id9, t67276, p3 r55 h6	1051.03	1051.03	18
+Id10, t68558, p1 r43 h7	2094.25	2094.25	14
+Id11, t68601, p0 r38 h1	185.722	742.887	12
+Id12, t68624, p1 r53 h7	2500.13	2500.13	10
+Id13, t68864, p0 r37 h3	423.38	1693.52	16
+Id14, t68870, p2 r39 h8	84.291	337.164	9
+Id15, t70281, p3 r48 h1	43.0798	43.0798	1
+Id16, t70691, p1 r48 h1	68.7068	68.7068	8
+Id17, t71390, p1 r64 h9	461.534	461.534	4
+Id18, t71434, p2 r44 h7	1818.86	7275.45	12
+Id19, t71591, p0 r70 h9	165.524	662.096	18
+Policy queue Mean pen = 1962.8, Max pen = 7373.2
+
+num_calls_t = 6
+
+
+Call	Wait On Scene(s)	Wait Penalized(s)	Amb:
+Id0, t65046, p1 r34 h7	1597.86	3195.72	15		| 1975.15	4
+t0:	
+	Id1, t65375, p3 r18 h3	1031.88	1031.88	3		| 717.358	12
+t1:
+	Id2, t65425, p0 r44 h7	1706.7	6826.79	10		| 6826.79	10	
+	Id3, t65603, p0 r62 h6	1141.92	4567.69	14		| 4567.69	14	
+	Id4, t65690, p0 r57 h9	908.444	3633.78	2		| 1487.84	18		
+	Id5, t65772, p0 r65 h9	128.724	514.895	18		| 980.136	16
+t2:
+	Id6, t66678, p1 r49 h0	245.561	245.561	0		| 103.273	2	
+	Id7, t66782, p0 r18 h3	874.814	3499.26	8		| 3499.26	8	
+	Id8, t67035, p3 r49 h0	334.255	334.255	13		| 1.87801	9	
+	Id9, t67119, p0 r39 h8	185.549	742.195	4		| 1441.14	6	
+t3:
+	Id10, t67276, p3 r55 h6	1464.92	1464.92	16		| 1162.88	15
+	Id11, t67983, p1 r58 h1	1017.89	1017.89	6		| 397.605	16
+t4:
+	Id12, t68558, p1 r43 h7	399.232	399.232	10		| 2490.03	0	
+	Id13, t68601, p0 r38 h1	185.722	742.887	12		| 669.151	12
+	Id14, t68624, p1 r53 h7	2234.01	2234.01	2		| 2234,01	18
+	Id15, t68864, p0 r37 h3	257.762	1031.05	18		| 1031,05	2
+	Id16, t68870, p2 r39 h8	84.291	337.164	9		| 520,237	14
+t5:
+	Id17, t68986, p3 r32 h4	2480.91	2480.91	3		| 2480,91	11
+t6:
+	Id18, t70281, p3 r48 h1	43.0798	43.0798	1		| 43,0798	1
+	Id19, t70691, p1 r48 h1	68.7068	68.7068	0		| 105,286	8	
+
+Id20, t71390, p1 r64 h9	461.534	461.534	14		| 461,534	12
+Id21, t71434, p2 r44 h7	1818.86	7275.45	6		| 7275,45	4
+Id22, t71591, p0 r70 h9	165.524	662.096	16		| 662,096	16
+Id23, t71657, p1 r38 h1	87.4681	87.4681	4		| 160,048	
+
+Policy queue Mean pen = 1787.4, Max pen = 7275.4
+
+x0_a1_b11_h3 = 1 | Base 11 instead 12
+xt1_c0_a0_b10_l44_h7 = 1	| OK
+xt1_c0_a0_b14_l62_h6 = 1  	| OK
+xt1_c0_a0_b16_l57_h9 = 1	| 16 instead 18
+xt1_c0_a0_b18_l65_h9 = 1	| 18 instead 16
+xt2_c0_a0_b2_l39_h8 = 1		| 2 instead 6		
+xt2_c0_a0_b8_l18_h3 = 1		| OK
+xt2_c1_a0_b6_l49_h0 = 1		| 6 instead 2
+xt2_c3_a1_b9_l49_h0 = 1		| OK
+yt2_a1_h3_b15 = 1			| 
+xt3_c1_a0_b0_l58_h1 = 1
+yt3_a0_h9_b19 = 1
+xt4_c0_a0_b12_l38_h1 = 1
+xt4_c0_a0_b19_l37_h3 = 1
+xt4_c1_a0_h'6_l53_h7 = 1
+xt4_c1_a0_h'7_l43_h7 = 1
+xt4_c2_a1_b3_l39_h8 = 1
+yt4_a0_h8_b6 = 1
+yt4_a0_h9_b6 = 1
+yt4_a1_h0_b13 = 1
+xt5_c3_a0_h'7_l32_h4 = 1
+yt5_a0_h0_b1 = 1
+yt5_a0_h1_b14 = 1
+yt5_a0_h3_b1 = 1
+xt6_c1_a0_b1_l48_h1 = 1
+yt6_a0_h1_b14 = 1
+yt6_a0_h7_b12 = 1
+yt6_a1_h6_b5 = 1
+yt6_a1_h8_b13 = 1
+xt7_c0_a0_b14_l70_h9 = 1
+xt7_c1_a0_b14_l64_h9 = 1
+xt7_c2_a0_h'7_l44_h7 = 1
+yt7_a0_h3_b10 = 1
+yt8_a0_h1_b6 = 2
+yt8_a0_h4_b6 = 1
+yt9_a0_h1_b6 = 1
+yt9_a0_h7_b13 = 1
+yt9_a0_h9_b10 = 1
+yt10_a0_h9_b13 = 1
+xt3_c3_a1_l'65_b15_l55_h6 = 1
+xt7_c1_a0_l'38_b12_l38_h1 = 1
+xt6_c3_a0_l'48_b1_l48_h1 = 1
+
+

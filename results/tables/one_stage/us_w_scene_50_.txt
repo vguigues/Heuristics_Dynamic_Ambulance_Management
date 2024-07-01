@@ -1,0 +1,4 @@
+forward	priorities	minmax	non_miopyc
+A	mean	Q(0.9)	max	mean	Q(0.9)	max	mean	Q(0.9)	max	mean	Q(0.9)	max	
+10	1744	3368	5918	1837	4064	7545	1926	4669	8207	1826	3805	7386
+12	1027	2026	3923	1093	2247	4973	1091	2251	5696	1035	2054	4111

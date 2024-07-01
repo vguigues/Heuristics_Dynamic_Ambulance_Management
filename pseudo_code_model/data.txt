@@ -1,0 +1,37 @@
+Call* call: input call if call model should be executed
+Ambulance* ambulance: input ambulance if return model should be executed
+Solver* solver: solver data
+
+type_call0: priority of call
+
+copy set sizes from instance (hospitals, bases, types_call, ....)
+total_locals := num_locals + num_bases + num_hosps
+
+num_times := 12 (6 hours into future)
+
+max_cost := max service_time (guide queue penalties)
+
+vectors to track which locations are hospitals, bases, etc
+
+A := ins.A (Ambulance to call matrix)
+
+local_call0 := region of call
+
+
+H[c][l] := nearest hospital to l (hospitals that can attend calls of type c from location l)
+
+C[c][l] := calls that are in solver->queue
+
+
+A0_ab := ambulances that are at base in solver->time (amb.arrival_time_at_b_last_trip <= solver->time)
+
+A0_ah := ambulances that are at hospital in solver->time (amb.arrival_time_at_f_last_trip == solver->time) *Do further tests
+
+
+set_times() := compute vector tao and tao_0 using travel.travel_time
+
+Lt_tab := Auxiliary vector to compute intermediate locations
+L_tab := vector of intermediate locations
+
+
+relax := list of variable families that should be continuous

@@ -1,0 +1,69 @@
+two_stage_tree:
+
+	declare all_waiting_times
+	initialize call.ambulances, every ambulance can answer each call
+	initialize control variables:
+		num_calls_t
+		num_decisions
+		t0
+		nb_realizations
+		my_scenarios
+	
+	load scenario tree into my_scenarios
+	load block_indexes that define each scenario
+	
+	for each policy:
+		set ambulance behavior for policy (fixed_bases, free_at_base, ...)
+		clear all_waiting_times
+		
+		for s in 0...,g_params.n_scenarios:
+			build this_scenario from block_indexes
+			initialize control vectors (waiting, calls_end, which_amb)
+			compute nearest bases
+			if district then  set base_location for each ambulance
+			initialize solver loop variables (calls_attended, index_call, event_call, time)
+			initialize queue
+			while(calls_attended < this_scenario.size())
+				get_future_scenarios
+				reallow idle ambulances to answer calls
+				if event_call = 1:
+					for call in queue:
+						if !cg:
+							for amb in ambulances:
+								avg_time = get_waiting_time_tree(amb,call)
+						else:
+							choose num_decisions ambulances closest to call
+							for amb in ambulances[0...num_decisions] (closest to call):
+								avg_time = get_waiting_time_tree(amb,call)
+								
+						get_waiting_time_tree(-1, call) // call goes to queue
+						index_amb = amb with min avg_time // or -1 if queue has min avg_time
+						
+						if index_amb >= 0:
+							answer_call with ambulance index_amb
+							
+				else:
+					ambulance amb_finish contains the ambulance that finished service
+					for call in queue:
+						avg_time = get_waiting_time_tree(amb_finish, call)
+						
+					
+					if !free_at_base && !cg:
+						for base in bases:
+							avg_time = get_waiting_time_tree_return (amb_finish, base)
+					else if !free_at_base:
+						for base in bases[0...num_decisions]:
+							avg_time = get_waiting_time_tree_return (amb_finish, base)
+						
+					ind_call is the index of call with minimum avg_time // or -1 if returning to base is minimum
+					ind_base is the index of base with mininum avg_time // or -1 if picking up a call is minimum
+					
+					
+					if ind_call >= 0:
+						answer_call with call ind_call
+						
+					else if ind_base >= 0:
+						return to base ind_base
+						forbid amb_finish to answer calls in queue
+			
+		

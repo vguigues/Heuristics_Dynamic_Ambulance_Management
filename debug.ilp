@@ -1,0 +1,456 @@
+\ Model (null)_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ con_begin_ride_k0: x_i0_k0 + x_i1_k0 + x_i2_k0 + x_i3_k0 + x_i4_k0
+   + x_i5_k0 + x_i6_k0 + x_i7_k0 + x_i8_k0 + x_i9_k0 <= 1
+ con_begin_ride_k1: x_i0_k1 + x_i2_k1 + x_i3_k1 + x_i4_k1 + x_i6_k1
+   + x_i8_k1 + x_i9_k1 <= 1
+ con_begin_ride_k3: x_i0_k3 + x_i1_k3 + x_i2_k3 + x_i3_k3 + x_i4_k3
+   + x_i5_k3 + x_i6_k3 + x_i7_k3 + x_i8_k3 + x_i9_k3 <= 1
+ con_begin_ride_k4: x_i0_k4 + x_i2_k4 + x_i3_k4 + x_i4_k4 + x_i6_k4
+   + x_i8_k4 + x_i9_k4 <= 1
+ con_begin_ride_k6: x_i0_k6 + x_i1_k6 + x_i2_k6 + x_i3_k6 + x_i4_k6
+   + x_i5_k6 + x_i6_k6 + x_i7_k6 + x_i8_k6 + x_i9_k6 <= 1
+ con_begin_ride_k7: x_i0_k7 + x_i2_k7 + x_i3_k7 + x_i4_k7 + x_i6_k7
+   + x_i8_k7 + x_i9_k7 <= 1
+ con_begin_ride_k9: x_i0_k9 + x_i1_k9 + x_i2_k9 + x_i3_k9 + x_i4_k9
+   + x_i5_k9 + x_i6_k9 + x_i7_k9 + x_i8_k9 + x_i9_k9 <= 1
+ con_demand_0: x_i0_k0 + x_i0_k1 + x_i0_k3 + x_i0_k4 + x_i0_k6 + x_i0_k7
+   + x_i0_k9 + x_i1_j0_k0 + x_i1_j0_k3 + x_i1_j0_k6 + x_i1_j0_k9
+   + x_i2_j0_k0 + x_i2_j0_k1 + x_i2_j0_k3 + x_i2_j0_k4 + x_i2_j0_k6
+   + x_i2_j0_k7 + x_i2_j0_k9 + x_i3_j0_k0 + x_i3_j0_k1 + x_i3_j0_k3
+   + x_i3_j0_k4 + x_i3_j0_k6 + x_i3_j0_k7 + x_i3_j0_k9 + x_i4_j0_k0
+   + x_i4_j0_k1 + x_i4_j0_k3 + x_i4_j0_k4 + x_i4_j0_k6 + x_i4_j0_k7
+   + x_i4_j0_k9 + x_i5_j0_k0 + x_i5_j0_k3 + x_i5_j0_k6 + x_i5_j0_k9
+   + x_i6_j0_k0 + x_i6_j0_k1 + x_i6_j0_k3 + x_i6_j0_k4 + x_i6_j0_k6
+   + x_i6_j0_k7 + x_i6_j0_k9 + x_i7_j0_k0 + x_i7_j0_k3 + x_i7_j0_k6
+   + x_i7_j0_k9 + x_i8_j0_k0 + x_i8_j0_k1 + x_i8_j0_k3 + x_i8_j0_k4
+   + x_i8_j0_k6 + x_i8_j0_k7 + x_i8_j0_k9 + x_i9_j0_k0 + x_i9_j0_k1
+   + x_i9_j0_k3 + x_i9_j0_k4 + x_i9_j0_k6 + x_i9_j0_k7 + x_i9_j0_k9 = 1
+ con_demand_1: x_i0_j1_k0 + x_i0_j1_k3 + x_i0_j1_k6 + x_i0_j1_k9 + x_i1_k0
+   + x_i1_k3 + x_i1_k6 + x_i1_k9 + x_i2_j1_k0 + x_i2_j1_k3 + x_i2_j1_k6
+   + x_i2_j1_k9 + x_i3_j1_k0 + x_i3_j1_k3 + x_i3_j1_k6 + x_i3_j1_k9
+   + x_i4_j1_k0 + x_i4_j1_k3 + x_i4_j1_k6 + x_i4_j1_k9 + x_i5_j1_k0
+   + x_i5_j1_k3 + x_i5_j1_k6 + x_i5_j1_k9 + x_i6_j1_k0 + x_i6_j1_k3
+   + x_i6_j1_k6 + x_i6_j1_k9 + x_i7_j1_k0 + x_i7_j1_k3 + x_i7_j1_k6
+   + x_i7_j1_k9 + x_i8_j1_k0 + x_i8_j1_k3 + x_i8_j1_k6 + x_i8_j1_k9
+   + x_i9_j1_k0 + x_i9_j1_k3 + x_i9_j1_k6 + x_i9_j1_k9 = 1
+ con_demand_2: x_i0_j2_k0 + x_i0_j2_k1 + x_i0_j2_k3 + x_i0_j2_k4
+   + x_i0_j2_k6 + x_i0_j2_k7 + x_i0_j2_k9 + x_i1_j2_k0 + x_i1_j2_k3
+   + x_i1_j2_k6 + x_i1_j2_k9 + x_i2_k0 + x_i2_k1 + x_i2_k3 + x_i2_k4
+   + x_i2_k6 + x_i2_k7 + x_i2_k9 + x_i3_j2_k0 + x_i3_j2_k1 + x_i3_j2_k3
+   + x_i3_j2_k4 + x_i3_j2_k6 + x_i3_j2_k7 + x_i3_j2_k9 + x_i4_j2_k0
+   + x_i4_j2_k1 + x_i4_j2_k3 + x_i4_j2_k4 + x_i4_j2_k6 + x_i4_j2_k7
+   + x_i4_j2_k9 + x_i5_j2_k0 + x_i5_j2_k3 + x_i5_j2_k6 + x_i5_j2_k9
+   + x_i6_j2_k0 + x_i6_j2_k1 + x_i6_j2_k3 + x_i6_j2_k4 + x_i6_j2_k6
+   + x_i6_j2_k7 + x_i6_j2_k9 + x_i7_j2_k0 + x_i7_j2_k3 + x_i7_j2_k6
+   + x_i7_j2_k9 + x_i8_j2_k0 + x_i8_j2_k1 + x_i8_j2_k3 + x_i8_j2_k4
+   + x_i8_j2_k6 + x_i8_j2_k7 + x_i8_j2_k9 + x_i9_j2_k0 + x_i9_j2_k1
+   + x_i9_j2_k3 + x_i9_j2_k4 + x_i9_j2_k6 + x_i9_j2_k7 + x_i9_j2_k9 = 1
+ con_demand_3: x_i0_j3_k0 + x_i0_j3_k1 + x_i0_j3_k3 + x_i0_j3_k4
+   + x_i0_j3_k6 + x_i0_j3_k7 + x_i0_j3_k9 + x_i1_j3_k0 + x_i1_j3_k3
+   + x_i1_j3_k6 + x_i1_j3_k9 + x_i2_j3_k0 + x_i2_j3_k1 + x_i2_j3_k3
+   + x_i2_j3_k4 + x_i2_j3_k6 + x_i2_j3_k7 + x_i2_j3_k9 + x_i3_k0 + x_i3_k1
+   + x_i3_k3 + x_i3_k4 + x_i3_k6 + x_i3_k7 + x_i3_k9 + x_i4_j3_k0
+   + x_i4_j3_k1 + x_i4_j3_k3 + x_i4_j3_k4 + x_i4_j3_k6 + x_i4_j3_k7
+   + x_i4_j3_k9 + x_i5_j3_k0 + x_i5_j3_k3 + x_i5_j3_k6 + x_i5_j3_k9
+   + x_i6_j3_k0 + x_i6_j3_k1 + x_i6_j3_k3 + x_i6_j3_k4 + x_i6_j3_k6
+   + x_i6_j3_k7 + x_i6_j3_k9 + x_i7_j3_k0 + x_i7_j3_k3 + x_i7_j3_k6
+   + x_i7_j3_k9 + x_i8_j3_k0 + x_i8_j3_k1 + x_i8_j3_k3 + x_i8_j3_k4
+   + x_i8_j3_k6 + x_i8_j3_k7 + x_i8_j3_k9 + x_i9_j3_k0 + x_i9_j3_k1
+   + x_i9_j3_k3 + x_i9_j3_k4 + x_i9_j3_k6 + x_i9_j3_k7 + x_i9_j3_k9 = 1
+ con_demand_4: x_i0_j4_k0 + x_i0_j4_k1 + x_i0_j4_k3 + x_i0_j4_k4
+   + x_i0_j4_k6 + x_i0_j4_k7 + x_i0_j4_k9 + x_i1_j4_k0 + x_i1_j4_k3
+   + x_i1_j4_k6 + x_i1_j4_k9 + x_i2_j4_k0 + x_i2_j4_k1 + x_i2_j4_k3
+   + x_i2_j4_k4 + x_i2_j4_k6 + x_i2_j4_k7 + x_i2_j4_k9 + x_i3_j4_k0
+   + x_i3_j4_k1 + x_i3_j4_k3 + x_i3_j4_k4 + x_i3_j4_k6 + x_i3_j4_k7
+   + x_i3_j4_k9 + x_i4_k0 + x_i4_k1 + x_i4_k3 + x_i4_k4 + x_i4_k6 + x_i4_k7
+   + x_i4_k9 + x_i5_j4_k0 + x_i5_j4_k3 + x_i5_j4_k6 + x_i5_j4_k9
+   + x_i6_j4_k0 + x_i6_j4_k1 + x_i6_j4_k3 + x_i6_j4_k4 + x_i6_j4_k6
+   + x_i6_j4_k7 + x_i6_j4_k9 + x_i7_j4_k0 + x_i7_j4_k3 + x_i7_j4_k6
+   + x_i7_j4_k9 + x_i8_j4_k0 + x_i8_j4_k1 + x_i8_j4_k3 + x_i8_j4_k4
+   + x_i8_j4_k6 + x_i8_j4_k7 + x_i8_j4_k9 + x_i9_j4_k0 + x_i9_j4_k1
+   + x_i9_j4_k3 + x_i9_j4_k4 + x_i9_j4_k6 + x_i9_j4_k7 + x_i9_j4_k9 = 1
+ con_demand_5: x_i0_j5_k0 + x_i0_j5_k3 + x_i0_j5_k6 + x_i0_j5_k9
+   + x_i1_j5_k0 + x_i1_j5_k3 + x_i1_j5_k6 + x_i1_j5_k9 + x_i2_j5_k0
+   + x_i2_j5_k3 + x_i2_j5_k6 + x_i2_j5_k9 + x_i3_j5_k0 + x_i3_j5_k3
+   + x_i3_j5_k6 + x_i3_j5_k9 + x_i4_j5_k0 + x_i4_j5_k3 + x_i4_j5_k6
+   + x_i4_j5_k9 + x_i5_k0 + x_i5_k3 + x_i5_k6 + x_i5_k9 + x_i6_j5_k0
+   + x_i6_j5_k3 + x_i6_j5_k6 + x_i6_j5_k9 + x_i7_j5_k0 + x_i7_j5_k3
+   + x_i7_j5_k6 + x_i7_j5_k9 + x_i8_j5_k0 + x_i8_j5_k3 + x_i8_j5_k6
+   + x_i8_j5_k9 + x_i9_j5_k0 + x_i9_j5_k3 + x_i9_j5_k6 + x_i9_j5_k9 = 1
+ con_demand_6: x_i0_j6_k0 + x_i0_j6_k1 + x_i0_j6_k3 + x_i0_j6_k4
+   + x_i0_j6_k6 + x_i0_j6_k7 + x_i0_j6_k9 + x_i1_j6_k0 + x_i1_j6_k3
+   + x_i1_j6_k6 + x_i1_j6_k9 + x_i2_j6_k0 + x_i2_j6_k1 + x_i2_j6_k3
+   + x_i2_j6_k4 + x_i2_j6_k6 + x_i2_j6_k7 + x_i2_j6_k9 + x_i3_j6_k0
+   + x_i3_j6_k1 + x_i3_j6_k3 + x_i3_j6_k4 + x_i3_j6_k6 + x_i3_j6_k7
+   + x_i3_j6_k9 + x_i4_j6_k0 + x_i4_j6_k1 + x_i4_j6_k3 + x_i4_j6_k4
+   + x_i4_j6_k6 + x_i4_j6_k7 + x_i4_j6_k9 + x_i5_j6_k0 + x_i5_j6_k3
+   + x_i5_j6_k6 + x_i5_j6_k9 + x_i6_k0 + x_i6_k1 + x_i6_k3 + x_i6_k4
+   + x_i6_k6 + x_i6_k7 + x_i6_k9 + x_i7_j6_k0 + x_i7_j6_k3 + x_i7_j6_k6
+   + x_i7_j6_k9 + x_i8_j6_k0 + x_i8_j6_k1 + x_i8_j6_k3 + x_i8_j6_k4
+   + x_i8_j6_k6 + x_i8_j6_k7 + x_i8_j6_k9 + x_i9_j6_k0 + x_i9_j6_k1
+   + x_i9_j6_k3 + x_i9_j6_k4 + x_i9_j6_k6 + x_i9_j6_k7 + x_i9_j6_k9 = 1
+ con_demand_9: x_i0_j9_k0 + x_i0_j9_k1 + x_i0_j9_k3 + x_i0_j9_k4
+   + x_i0_j9_k6 + x_i0_j9_k7 + x_i0_j9_k9 + x_i1_j9_k0 + x_i1_j9_k3
+   + x_i1_j9_k6 + x_i1_j9_k9 + x_i2_j9_k0 + x_i2_j9_k1 + x_i2_j9_k3
+   + x_i2_j9_k4 + x_i2_j9_k6 + x_i2_j9_k7 + x_i2_j9_k9 + x_i3_j9_k0
+   + x_i3_j9_k1 + x_i3_j9_k3 + x_i3_j9_k4 + x_i3_j9_k6 + x_i3_j9_k7
+   + x_i3_j9_k9 + x_i4_j9_k0 + x_i4_j9_k1 + x_i4_j9_k3 + x_i4_j9_k4
+   + x_i4_j9_k6 + x_i4_j9_k7 + x_i4_j9_k9 + x_i5_j9_k0 + x_i5_j9_k3
+   + x_i5_j9_k6 + x_i5_j9_k9 + x_i6_j9_k0 + x_i6_j9_k1 + x_i6_j9_k3
+   + x_i6_j9_k4 + x_i6_j9_k6 + x_i6_j9_k7 + x_i6_j9_k9 + x_i7_j9_k0
+   + x_i7_j9_k3 + x_i7_j9_k6 + x_i7_j9_k9 + x_i8_j9_k0 + x_i8_j9_k1
+   + x_i8_j9_k3 + x_i8_j9_k4 + x_i8_j9_k6 + x_i8_j9_k7 + x_i8_j9_k9
+   + x_i9_k0 + x_i9_k1 + x_i9_k3 + x_i9_k4 + x_i9_k6 + x_i9_k7 + x_i9_k9
+   = 1
+ time_others_i0_j1_h4: 6.25e+08 x_i0_j1_k0 + 6.25e+08 x_i0_j1_k3
+   + 6.25e+08 x_i0_j1_k6 + 6.25e+08 x_i0_j1_k9 + 4677.712015574085 y_i0_h4
+   + t_0 - t_1 <= 23799.4
+ time_others_i0_j2_h4: 6.25e+08 x_i0_j2_k0 + 6.25e+08 x_i0_j2_k1
+   + 6.25e+08 x_i0_j2_k3 + 6.25e+08 x_i0_j2_k4 + 6.25e+08 x_i0_j2_k6
+   + 6.25e+08 x_i0_j2_k7 + 6.25e+08 x_i0_j2_k9 + 2314.333958555399 y_i0_h4
+   + t_0 - t_2 <= 23799.4
+ time_others_i0_j3_h4: 6.25e+08 x_i0_j3_k0 + 6.25e+08 x_i0_j3_k1
+   + 6.25e+08 x_i0_j3_k3 + 6.25e+08 x_i0_j3_k4 + 6.25e+08 x_i0_j3_k6
+   + 6.25e+08 x_i0_j3_k7 + 6.25e+08 x_i0_j3_k9 + 2166.593998365658 y_i0_h4
+   + t_0 - t_3 <= 23799.4
+ time_others_i0_j4_h4: 6.25e+08 x_i0_j4_k0 + 6.25e+08 x_i0_j4_k1
+   + 6.25e+08 x_i0_j4_k3 + 6.25e+08 x_i0_j4_k4 + 6.25e+08 x_i0_j4_k6
+   + 6.25e+08 x_i0_j4_k7 + 6.25e+08 x_i0_j4_k9 + 4031.820601222641 y_i0_h4
+   + t_0 - t_4 <= 23799.4
+ time_others_i0_j5_h4: 6.25e+08 x_i0_j5_k0 + 6.25e+08 x_i0_j5_k3
+   + 6.25e+08 x_i0_j5_k6 + 6.25e+08 x_i0_j5_k9 + 4077.147926771063 y_i0_h4
+   + t_0 - t_5 <= 23799.4
+ time_others_i0_j6_h4: 6.25e+08 x_i0_j6_k0 + 6.25e+08 x_i0_j6_k1
+   + 6.25e+08 x_i0_j6_k3 + 6.25e+08 x_i0_j6_k4 + 6.25e+08 x_i0_j6_k6
+   + 6.25e+08 x_i0_j6_k7 + 6.25e+08 x_i0_j6_k9 + 1798.710164276438 y_i0_h4
+   + t_0 - t_6 <= 23799.4
+ time_others_i0_j7_h4: 6.25e+08 x_i0_j7_k0 + 6.25e+08 x_i0_j7_k3
+   + 6.25e+08 x_i0_j7_k6 + 6.25e+08 x_i0_j7_k9 + 4670.214912966855 y_i0_h4
+   + t_0 - t_7 <= 23799.4
+ time_others_i0_j8_h4: 6.25e+08 x_i0_j8_k0 + 6.25e+08 x_i0_j8_k1
+   + 6.25e+08 x_i0_j8_k3 + 6.25e+08 x_i0_j8_k4 + 6.25e+08 x_i0_j8_k6
+   + 6.25e+08 x_i0_j8_k7 + 6.25e+08 x_i0_j8_k9 + 3378.86488999416 y_i0_h4
+   + t_0 - t_8 <= 23799.4
+ time_others_i0_j9_h4: 6.25e+08 x_i0_j9_k0 + 6.25e+08 x_i0_j9_k1
+   + 6.25e+08 x_i0_j9_k3 + 6.25e+08 x_i0_j9_k4 + 6.25e+08 x_i0_j9_k6
+   + 6.25e+08 x_i0_j9_k7 + 6.25e+08 x_i0_j9_k9 + 3078.365957615402 y_i0_h4
+   + t_0 - t_9 <= 23799.4
+ time_others_i1_j0_h5: 6.25e+08 x_i1_j0_k0 + 6.25e+08 x_i1_j0_k3
+   + 6.25e+08 x_i1_j0_k6 + 6.25e+08 x_i1_j0_k9 + 4527.062148650215 y_i1_h5
+   - t_0 + t_1 <= 23799.4
+ time_others_i1_j2_h5: 6.25e+08 x_i1_j2_k0 + 6.25e+08 x_i1_j2_k3
+   + 6.25e+08 x_i1_j2_k6 + 6.25e+08 x_i1_j2_k9 + 4707.932065777589 y_i1_h5
+   + t_1 - t_2 <= 23799.4
+ time_others_i1_j3_h5: 6.25e+08 x_i1_j3_k0 + 6.25e+08 x_i1_j3_k3
+   + 6.25e+08 x_i1_j3_k6 + 6.25e+08 x_i1_j3_k9 + 3769.482635558094 y_i1_h5
+   + t_1 - t_3 <= 23799.4
+ time_others_i1_j4_h5: 6.25e+08 x_i1_j4_k0 + 6.25e+08 x_i1_j4_k3
+   + 6.25e+08 x_i1_j4_k6 + 6.25e+08 x_i1_j4_k9 + 1914.339272943454 y_i1_h5
+   + t_1 - t_4 <= 23799.4
+ time_others_i1_j5_h5: 6.25e+08 x_i1_j5_k0 + 6.25e+08 x_i1_j5_k3
+   + 6.25e+08 x_i1_j5_k6 + 6.25e+08 x_i1_j5_k9 + 2422.544750239068 y_i1_h5
+   + t_1 - t_5 <= 23799.4
+ time_others_i1_j6_h5: 6.25e+08 x_i1_j6_k0 + 6.25e+08 x_i1_j6_k3
+   + 6.25e+08 x_i1_j6_k6 + 6.25e+08 x_i1_j6_k9 + 4835.196817464095 y_i1_h5
+   + t_1 - t_6 <= 23799.4
+ time_others_i1_j9_h5: 6.25e+08 x_i1_j9_k0 + 6.25e+08 x_i1_j9_k3
+   + 6.25e+08 x_i1_j9_k6 + 6.25e+08 x_i1_j9_k9 + 2932.662399704854 y_i1_h5
+   + t_1 - t_9 <= 23799.4
+ time_others_i2_j0_h4: 6.25e+08 x_i2_j0_k0 + 6.25e+08 x_i2_j0_k1
+   + 6.25e+08 x_i2_j0_k3 + 6.25e+08 x_i2_j0_k4 + 6.25e+08 x_i2_j0_k6
+   + 6.25e+08 x_i2_j0_k7 + 6.25e+08 x_i2_j0_k9 + 2314.333958555399 y_i2_h4
+   - t_0 + t_2 <= 23799.4
+ time_others_i2_j1_h4: 6.25e+08 x_i2_j1_k0 + 6.25e+08 x_i2_j1_k3
+   + 6.25e+08 x_i2_j1_k6 + 6.25e+08 x_i2_j1_k9 + 5374.949517996562 y_i2_h4
+   - t_1 + t_2 <= 23799.4
+ time_others_i2_j3_h4: 6.25e+08 x_i2_j3_k0 + 6.25e+08 x_i2_j3_k1
+   + 6.25e+08 x_i2_j3_k3 + 6.25e+08 x_i2_j3_k4 + 6.25e+08 x_i2_j3_k6
+   + 6.25e+08 x_i2_j3_k7 + 6.25e+08 x_i2_j3_k9 + 2863.831500788135 y_i2_h4
+   + t_2 - t_3 <= 23799.4
+ time_others_i2_j4_h4: 6.25e+08 x_i2_j4_k0 + 6.25e+08 x_i2_j4_k1
+   + 6.25e+08 x_i2_j4_k3 + 6.25e+08 x_i2_j4_k4 + 6.25e+08 x_i2_j4_k6
+   + 6.25e+08 x_i2_j4_k7 + 6.25e+08 x_i2_j4_k9 + 4729.058103645117 y_i2_h4
+   + t_2 - t_4 <= 23799.4
+ time_others_i2_j5_h4: 6.25e+08 x_i2_j5_k0 + 6.25e+08 x_i2_j5_k3
+   + 6.25e+08 x_i2_j5_k6 + 6.25e+08 x_i2_j5_k9 + 4774.385429193539 y_i2_h4
+   + t_2 - t_5 <= 23799.4
+ time_others_i2_j6_h4: 6.25e+08 x_i2_j6_k0 + 6.25e+08 x_i2_j6_k1
+   + 6.25e+08 x_i2_j6_k3 + 6.25e+08 x_i2_j6_k4 + 6.25e+08 x_i2_j6_k6
+   + 6.25e+08 x_i2_j6_k7 + 6.25e+08 x_i2_j6_k9 + 2495.947666698914 y_i2_h4
+   + t_2 - t_6 <= 23799.4
+ time_others_i2_j9_h4: 6.25e+08 x_i2_j9_k0 + 6.25e+08 x_i2_j9_k1
+   + 6.25e+08 x_i2_j9_k3 + 6.25e+08 x_i2_j9_k4 + 6.25e+08 x_i2_j9_k6
+   + 6.25e+08 x_i2_j9_k7 + 6.25e+08 x_i2_j9_k9 + 3775.603460037878 y_i2_h4
+   + t_2 - t_9 <= 23799.4
+ time_others_i3_j0_h7: 6.25e+08 x_i3_j0_k0 + 6.25e+08 x_i3_j0_k1
+   + 6.25e+08 x_i3_j0_k3 + 6.25e+08 x_i3_j0_k4 + 6.25e+08 x_i3_j0_k6
+   + 6.25e+08 x_i3_j0_k7 + 6.25e+08 x_i3_j0_k9 + 2087.172347499357 y_i3_h7
+   - t_0 + t_3 <= 23799.4
+ time_others_i3_j1_h7: 6.25e+08 x_i3_j1_k0 + 6.25e+08 x_i3_j1_k3
+   + 6.25e+08 x_i3_j1_k6 + 6.25e+08 x_i3_j1_k9 + 3843.721572802679 y_i3_h7
+   - t_1 + t_3 <= 23799.4
+ time_others_i3_j2_h7: 6.25e+08 x_i3_j2_k0 + 6.25e+08 x_i3_j2_k1
+   + 6.25e+08 x_i3_j2_k3 + 6.25e+08 x_i3_j2_k4 + 6.25e+08 x_i3_j2_k6
+   + 6.25e+08 x_i3_j2_k7 + 6.25e+08 x_i3_j2_k9 + 2438.645795997508 y_i3_h7
+   - t_2 + t_3 <= 23799.4
+ time_others_i3_j4_h7: 6.25e+08 x_i3_j4_k0 + 6.25e+08 x_i3_j4_k1
+   + 6.25e+08 x_i3_j4_k3 + 6.25e+08 x_i3_j4_k4 + 6.25e+08 x_i3_j4_k6
+   + 6.25e+08 x_i3_j4_k7 + 6.25e+08 x_i3_j4_k9 + 3202.755460758941 y_i3_h7
+   + t_3 - t_4 <= 23799.4
+ time_others_i3_j5_h7: 6.25e+08 x_i3_j5_k0 + 6.25e+08 x_i3_j5_k3
+   + 6.25e+08 x_i3_j5_k6 + 6.25e+08 x_i3_j5_k9 + 3238.392376461783 y_i3_h7
+   + t_3 - t_5 <= 23799.4
+ time_others_i3_j6_h7: 6.25e+08 x_i3_j6_k0 + 6.25e+08 x_i3_j6_k1
+   + 6.25e+08 x_i3_j6_k3 + 6.25e+08 x_i3_j6_k4 + 6.25e+08 x_i3_j6_k6
+   + 6.25e+08 x_i3_j6_k7 + 6.25e+08 x_i3_j6_k9 + 2395.524616855098 y_i3_h7
+   + t_3 - t_6 <= 23799.4
+ time_others_i3_j9_h7: 6.25e+08 x_i3_j9_k0 + 6.25e+08 x_i3_j9_k1
+   + 6.25e+08 x_i3_j9_k3 + 6.25e+08 x_i3_j9_k4 + 6.25e+08 x_i3_j9_k6
+   + 6.25e+08 x_i3_j9_k7 + 6.25e+08 x_i3_j9_k9 + 2234.241440538481 y_i3_h7
+   + t_3 - t_9 <= 23799.4
+ time_others_i4_j0_h9: 6.25e+08 x_i4_j0_k0 + 6.25e+08 x_i4_j0_k1
+   + 6.25e+08 x_i4_j0_k3 + 6.25e+08 x_i4_j0_k4 + 6.25e+08 x_i4_j0_k6
+   + 6.25e+08 x_i4_j0_k7 + 6.25e+08 x_i4_j0_k9 + 3836.85307000726 y_i4_h9
+   - t_0 + t_4 <= 23799.4
+ time_others_i4_j1_h9: 6.25e+08 x_i4_j1_k0 + 6.25e+08 x_i4_j1_k3
+   + 6.25e+08 x_i4_j1_k6 + 6.25e+08 x_i4_j1_k9 + 2560.308541004688 y_i4_h9
+   - t_1 + t_4 <= 23799.4
+ time_others_i4_j2_h9: 6.25e+08 x_i4_j2_k0 + 6.25e+08 x_i4_j2_k1
+   + 6.25e+08 x_i4_j2_k3 + 6.25e+08 x_i4_j2_k4 + 6.25e+08 x_i4_j2_k6
+   + 6.25e+08 x_i4_j2_k7 + 6.25e+08 x_i4_j2_k9 + 4055.899094189828 y_i4_h9
+   - t_2 + t_4 <= 23799.4
+ time_others_i4_j3_h9: 6.25e+08 x_i4_j3_k0 + 6.25e+08 x_i4_j3_k1
+   + 6.25e+08 x_i4_j3_k3 + 6.25e+08 x_i4_j3_k4 + 6.25e+08 x_i4_j3_k6
+   + 6.25e+08 x_i4_j3_k7 + 6.25e+08 x_i4_j3_k9 + 3076.52467264801 y_i4_h9
+   - t_3 + t_4 <= 23799.4
+ time_others_i4_j5_h9: 6.25e+08 x_i4_j5_k0 + 6.25e+08 x_i4_j5_k3
+   + 6.25e+08 x_i4_j5_k6 + 6.25e+08 x_i4_j5_k9 + 2392.63157480786 y_i4_h9
+   + t_4 - t_5 <= 23799.4
+ time_others_i4_j6_h9: 6.25e+08 x_i4_j6_k0 + 6.25e+08 x_i4_j6_k1
+   + 6.25e+08 x_i4_j6_k3 + 6.25e+08 x_i4_j6_k4 + 6.25e+08 x_i4_j6_k6
+   + 6.25e+08 x_i4_j6_k7 + 6.25e+08 x_i4_j6_k9 + 4145.385540612935 y_i4_h9
+   + t_4 - t_6 <= 23799.4
+ time_others_i4_j9_h9: 6.25e+08 x_i4_j9_k0 + 6.25e+08 x_i4_j9_k1
+   + 6.25e+08 x_i4_j9_k3 + 6.25e+08 x_i4_j9_k4 + 6.25e+08 x_i4_j9_k6
+   + 6.25e+08 x_i4_j9_k7 + 6.25e+08 x_i4_j9_k9 + 2284.976482400642 y_i4_h9
+   + t_4 - t_9 <= 23799.4
+ time_others_i5_j0_h1: 6.25e+08 x_i5_j0_k0 + 6.25e+08 x_i5_j0_k3
+   + 6.25e+08 x_i5_j0_k6 + 6.25e+08 x_i5_j0_k9 + 3955.958533065396 y_i5_h1
+   - t_0 + t_5 <= 23799.4
+ time_others_i5_j1_h1: 6.25e+08 x_i5_j1_k0 + 6.25e+08 x_i5_j1_k3
+   + 6.25e+08 x_i5_j1_k6 + 6.25e+08 x_i5_j1_k9 + 2342.636865870543 y_i5_h1
+   - t_1 + t_5 <= 23799.4
+ time_others_i5_j2_h1: 6.25e+08 x_i5_j2_k0 + 6.25e+08 x_i5_j2_k3
+   + 6.25e+08 x_i5_j2_k6 + 6.25e+08 x_i5_j2_k9 + 4022.559905531917 y_i5_h1
+   - t_2 + t_5 <= 23799.4
+ time_others_i5_j3_h1: 6.25e+08 x_i5_j3_k0 + 6.25e+08 x_i5_j3_k3
+   + 6.25e+08 x_i5_j3_k6 + 6.25e+08 x_i5_j3_k9 + 3258.597915110834 y_i5_h1
+   - t_3 + t_5 <= 23799.4
+ time_others_i5_j4_h1: 6.25e+08 x_i5_j4_k0 + 6.25e+08 x_i5_j4_k3
+   + 6.25e+08 x_i5_j4_k6 + 6.25e+08 x_i5_j4_k9 + 1941.095512829589 y_i5_h1
+   - t_4 + t_5 <= 23799.4
+ time_others_i5_j6_h1: 6.25e+08 x_i5_j6_k0 + 6.25e+08 x_i5_j6_k3
+   + 6.25e+08 x_i5_j6_k6 + 6.25e+08 x_i5_j6_k9 + 4255.191945067703 y_i5_h1
+   + t_5 - t_6 <= 23799.4
+ time_others_i5_j9_h1: 6.25e+08 x_i5_j9_k0 + 6.25e+08 x_i5_j9_k3
+   + 6.25e+08 x_i5_j9_k6 + 6.25e+08 x_i5_j9_k9 + 2328.276021976439 y_i5_h1
+   + t_5 - t_9 <= 23799.4
+ time_others_i6_j0_h4: 6.25e+08 x_i6_j0_k0 + 6.25e+08 x_i6_j0_k1
+   + 6.25e+08 x_i6_j0_k3 + 6.25e+08 x_i6_j0_k4 + 6.25e+08 x_i6_j0_k6
+   + 6.25e+08 x_i6_j0_k7 + 6.25e+08 x_i6_j0_k9 + 1798.710164276438 y_i6_h4
+   - t_0 + t_6 <= 23799.4
+ time_others_i6_j1_h4: 6.25e+08 x_i6_j1_k0 + 6.25e+08 x_i6_j1_k3
+   + 6.25e+08 x_i6_j1_k6 + 6.25e+08 x_i6_j1_k9 + 4859.325723717599 y_i6_h4
+   - t_1 + t_6 <= 23799.4
+ time_others_i6_j2_h4: 6.25e+08 x_i6_j2_k0 + 6.25e+08 x_i6_j2_k1
+   + 6.25e+08 x_i6_j2_k3 + 6.25e+08 x_i6_j2_k4 + 6.25e+08 x_i6_j2_k6
+   + 6.25e+08 x_i6_j2_k7 + 6.25e+08 x_i6_j2_k9 + 2495.947666698914 y_i6_h4
+   - t_2 + t_6 <= 23799.4
+ time_others_i6_j3_h4: 6.25e+08 x_i6_j3_k0 + 6.25e+08 x_i6_j3_k1
+   + 6.25e+08 x_i6_j3_k3 + 6.25e+08 x_i6_j3_k4 + 6.25e+08 x_i6_j3_k6
+   + 6.25e+08 x_i6_j3_k7 + 6.25e+08 x_i6_j3_k9 + 2348.207706509173 y_i6_h4
+   - t_3 + t_6 <= 23799.4
+ time_others_i6_j4_h4: 6.25e+08 x_i6_j4_k0 + 6.25e+08 x_i6_j4_k1
+   + 6.25e+08 x_i6_j4_k3 + 6.25e+08 x_i6_j4_k4 + 6.25e+08 x_i6_j4_k6
+   + 6.25e+08 x_i6_j4_k7 + 6.25e+08 x_i6_j4_k9 + 4213.434309366156 y_i6_h4
+   - t_4 + t_6 <= 23799.4
+ time_others_i6_j5_h4: 6.25e+08 x_i6_j5_k0 + 6.25e+08 x_i6_j5_k3
+   + 6.25e+08 x_i6_j5_k6 + 6.25e+08 x_i6_j5_k9 + 4258.761634914578 y_i6_h4
+   - t_5 + t_6 <= 23799.4
+ time_others_i6_j9_h4: 6.25e+08 x_i6_j9_k0 + 6.25e+08 x_i6_j9_k1
+   + 6.25e+08 x_i6_j9_k3 + 6.25e+08 x_i6_j9_k4 + 6.25e+08 x_i6_j9_k6
+   + 6.25e+08 x_i6_j9_k7 + 6.25e+08 x_i6_j9_k9 + 3259.979665758917 y_i6_h4
+   + t_6 - t_9 <= 23799.4
+ time_others_i7_j0_h5: 6.25e+08 x_i7_j0_k0 + 6.25e+08 x_i7_j0_k3
+   + 6.25e+08 x_i7_j0_k6 + 6.25e+08 x_i7_j0_k9 + 4522.393614877171 y_i7_h5
+   - t_0 + t_7 <= 23799.4
+ time_others_i7_j1_h5: 6.25e+08 x_i7_j1_k0 + 6.25e+08 x_i7_j1_k3
+   + 6.25e+08 x_i7_j1_k6 + 6.25e+08 x_i7_j1_k9 + 1810.051441822026 y_i7_h5
+   - t_1 + t_7 <= 23799.4
+ time_others_i7_j2_h5: 6.25e+08 x_i7_j2_k0 + 6.25e+08 x_i7_j2_k3
+   + 6.25e+08 x_i7_j2_k6 + 6.25e+08 x_i7_j2_k9 + 4703.263532004545 y_i7_h5
+   - t_2 + t_7 <= 23799.4
+ time_others_i7_j3_h5: 6.25e+08 x_i7_j3_k0 + 6.25e+08 x_i7_j3_k3
+   + 6.25e+08 x_i7_j3_k6 + 6.25e+08 x_i7_j3_k9 + 3764.814101785049 y_i7_h5
+   - t_3 + t_7 <= 23799.4
+ time_others_i7_j4_h5: 6.25e+08 x_i7_j4_k0 + 6.25e+08 x_i7_j4_k3
+   + 6.25e+08 x_i7_j4_k6 + 6.25e+08 x_i7_j4_k9 + 1909.67073917041 y_i7_h5
+   - t_4 + t_7 <= 23799.4
+ time_others_i7_j5_h5: 6.25e+08 x_i7_j5_k0 + 6.25e+08 x_i7_j5_k3
+   + 6.25e+08 x_i7_j5_k6 + 6.25e+08 x_i7_j5_k9 + 2417.876216466024 y_i7_h5
+   - t_5 + t_7 <= 23799.4
+ time_others_i7_j6_h5: 6.25e+08 x_i7_j6_k0 + 6.25e+08 x_i7_j6_k3
+   + 6.25e+08 x_i7_j6_k6 + 6.25e+08 x_i7_j6_k9 + 4830.528283691051 y_i7_h5
+   - t_6 + t_7 <= 23799.4
+ time_others_i7_j9_h5: 6.25e+08 x_i7_j9_k0 + 6.25e+08 x_i7_j9_k3
+   + 6.25e+08 x_i7_j9_k6 + 6.25e+08 x_i7_j9_k9 + 2927.99386593181 y_i7_h5
+   + t_7 - t_9 <= 23799.4
+ time_others_i8_j0_h9: 6.25e+08 x_i8_j0_k0 + 6.25e+08 x_i8_j0_k1
+   + 6.25e+08 x_i8_j0_k3 + 6.25e+08 x_i8_j0_k4 + 6.25e+08 x_i8_j0_k6
+   + 6.25e+08 x_i8_j0_k7 + 6.25e+08 x_i8_j0_k9 + 3849.064916988929 y_i8_h9
+   - t_0 + t_8 <= 23799.4
+ time_others_i8_j1_h9: 6.25e+08 x_i8_j1_k0 + 6.25e+08 x_i8_j1_k3
+   + 6.25e+08 x_i8_j1_k6 + 6.25e+08 x_i8_j1_k9 + 2572.520387986358 y_i8_h9
+   - t_1 + t_8 <= 23799.4
+ time_others_i8_j2_h9: 6.25e+08 x_i8_j2_k0 + 6.25e+08 x_i8_j2_k1
+   + 6.25e+08 x_i8_j2_k3 + 6.25e+08 x_i8_j2_k4 + 6.25e+08 x_i8_j2_k6
+   + 6.25e+08 x_i8_j2_k7 + 6.25e+08 x_i8_j2_k9 + 4068.110941171498 y_i8_h9
+   - t_2 + t_8 <= 23799.4
+ time_others_i8_j3_h9: 6.25e+08 x_i8_j3_k0 + 6.25e+08 x_i8_j3_k1
+   + 6.25e+08 x_i8_j3_k3 + 6.25e+08 x_i8_j3_k4 + 6.25e+08 x_i8_j3_k6
+   + 6.25e+08 x_i8_j3_k7 + 6.25e+08 x_i8_j3_k9 + 3088.73651962968 y_i8_h9
+   - t_3 + t_8 <= 23799.4
+ time_others_i8_j4_h9: 6.25e+08 x_i8_j4_k0 + 6.25e+08 x_i8_j4_k1
+   + 6.25e+08 x_i8_j4_k3 + 6.25e+08 x_i8_j4_k4 + 6.25e+08 x_i8_j4_k6
+   + 6.25e+08 x_i8_j4_k7 + 6.25e+08 x_i8_j4_k9 + 1923.806416293545 y_i8_h9
+   - t_4 + t_8 <= 23799.4
+ time_others_i8_j5_h9: 6.25e+08 x_i8_j5_k0 + 6.25e+08 x_i8_j5_k3
+   + 6.25e+08 x_i8_j5_k6 + 6.25e+08 x_i8_j5_k9 + 2404.843421789529 y_i8_h9
+   - t_5 + t_8 <= 23799.4
+ time_others_i8_j6_h9: 6.25e+08 x_i8_j6_k0 + 6.25e+08 x_i8_j6_k1
+   + 6.25e+08 x_i8_j6_k3 + 6.25e+08 x_i8_j6_k4 + 6.25e+08 x_i8_j6_k6
+   + 6.25e+08 x_i8_j6_k7 + 6.25e+08 x_i8_j6_k9 + 4157.597387594606 y_i8_h9
+   - t_6 + t_8 <= 23799.4
+ time_others_i8_j9_h9: 6.25e+08 x_i8_j9_k0 + 6.25e+08 x_i8_j9_k1
+   + 6.25e+08 x_i8_j9_k3 + 6.25e+08 x_i8_j9_k4 + 6.25e+08 x_i8_j9_k6
+   + 6.25e+08 x_i8_j9_k7 + 6.25e+08 x_i8_j9_k9 + 2297.188329382312 y_i8_h9
+   + t_8 - t_9 <= 23799.4
+ time_others_i9_j0_h6: 6.25e+08 x_i9_j0_k0 + 6.25e+08 x_i9_j0_k1
+   + 6.25e+08 x_i9_j0_k3 + 6.25e+08 x_i9_j0_k4 + 6.25e+08 x_i9_j0_k6
+   + 6.25e+08 x_i9_j0_k7 + 6.25e+08 x_i9_j0_k9 + 3033.740224082489 y_i9_h6
+   - t_0 + t_9 <= 23799.4
+ time_others_i9_j1_h6: 6.25e+08 x_i9_j1_k0 + 6.25e+08 x_i9_j1_k3
+   + 6.25e+08 x_i9_j1_k6 + 6.25e+08 x_i9_j1_k9 + 3219.668476433532 y_i9_h6
+   - t_1 + t_9 <= 23799.4
+ time_others_i9_j2_h6: 6.25e+08 x_i9_j2_k0 + 6.25e+08 x_i9_j2_k1
+   + 6.25e+08 x_i9_j2_k3 + 6.25e+08 x_i9_j2_k4 + 6.25e+08 x_i9_j2_k6
+   + 6.25e+08 x_i9_j2_k7 + 6.25e+08 x_i9_j2_k9 + 3293.769136941853 y_i9_h6
+   - t_2 + t_9 <= 23799.4
+ time_others_i9_j3_h6: 6.25e+08 x_i9_j3_k0 + 6.25e+08 x_i9_j3_k1
+   + 6.25e+08 x_i9_j3_k3 + 6.25e+08 x_i9_j3_k4 + 6.25e+08 x_i9_j3_k6
+   + 6.25e+08 x_i9_j3_k7 + 6.25e+08 x_i9_j3_k9 + 2277.51755395116 y_i9_h6
+   - t_3 + t_9 <= 23799.4
+ time_others_i9_j4_h6: 6.25e+08 x_i9_j4_k0 + 6.25e+08 x_i9_j4_k1
+   + 6.25e+08 x_i9_j4_k3 + 6.25e+08 x_i9_j4_k4 + 6.25e+08 x_i9_j4_k6
+   + 6.25e+08 x_i9_j4_k7 + 6.25e+08 x_i9_j4_k9 + 2573.447411650062 y_i9_h6
+   - t_4 + t_9 <= 23799.4
+ time_others_i9_j5_h6: 6.25e+08 x_i9_j5_k0 + 6.25e+08 x_i9_j5_k3
+   + 6.25e+08 x_i9_j5_k6 + 6.25e+08 x_i9_j5_k9 + 2734.617185200583 y_i9_h6
+   - t_5 + t_9 <= 23799.4
+ time_others_i9_j6_h6: 6.25e+08 x_i9_j6_k0 + 6.25e+08 x_i9_j6_k1
+   + 6.25e+08 x_i9_j6_k3 + 6.25e+08 x_i9_j6_k4 + 6.25e+08 x_i9_j6_k6
+   + 6.25e+08 x_i9_j6_k7 + 6.25e+08 x_i9_j6_k9 + 3342.304058296182 y_i9_h6
+   - t_6 + t_9 <= 23799.4
+Bounds
+ t_0 free
+ t_1 free
+ t_2 free
+ t_3 free
+ t_4 free
+ t_5 free
+ t_6 free
+ t_7 free
+ t_8 free
+ t_9 free
+Binaries
+ x_i0_k0 x_i0_k1 x_i0_k3 x_i0_k4 x_i0_k6 x_i0_k7 x_i0_k9 x_i0_j1_k0
+ x_i0_j1_k3 x_i0_j1_k6 x_i0_j1_k9 x_i0_j2_k0 x_i0_j2_k1 x_i0_j2_k3
+ x_i0_j2_k4 x_i0_j2_k6 x_i0_j2_k7 x_i0_j2_k9 x_i0_j3_k0 x_i0_j3_k1
+ x_i0_j3_k3 x_i0_j3_k4 x_i0_j3_k6 x_i0_j3_k7 x_i0_j3_k9 x_i0_j4_k0
+ x_i0_j4_k1 x_i0_j4_k3 x_i0_j4_k4 x_i0_j4_k6 x_i0_j4_k7 x_i0_j4_k9
+ x_i0_j5_k0 x_i0_j5_k3 x_i0_j5_k6 x_i0_j5_k9 x_i0_j6_k0 x_i0_j6_k1
+ x_i0_j6_k3 x_i0_j6_k4 x_i0_j6_k6 x_i0_j6_k7 x_i0_j6_k9 x_i0_j7_k0
+ x_i0_j7_k3 x_i0_j7_k6 x_i0_j7_k9 x_i0_j8_k0 x_i0_j8_k1 x_i0_j8_k3
+ x_i0_j8_k4 x_i0_j8_k6 x_i0_j8_k7 x_i0_j8_k9 x_i0_j9_k0 x_i0_j9_k1
+ x_i0_j9_k3 x_i0_j9_k4 x_i0_j9_k6 x_i0_j9_k7 x_i0_j9_k9 x_i1_k0 x_i1_k3
+ x_i1_k6 x_i1_k9 x_i1_j0_k0 x_i1_j0_k3 x_i1_j0_k6 x_i1_j0_k9 x_i1_j2_k0
+ x_i1_j2_k3 x_i1_j2_k6 x_i1_j2_k9 x_i1_j3_k0 x_i1_j3_k3 x_i1_j3_k6
+ x_i1_j3_k9 x_i1_j4_k0 x_i1_j4_k3 x_i1_j4_k6 x_i1_j4_k9 x_i1_j5_k0
+ x_i1_j5_k3 x_i1_j5_k6 x_i1_j5_k9 x_i1_j6_k0 x_i1_j6_k3 x_i1_j6_k6
+ x_i1_j6_k9 x_i1_j9_k0 x_i1_j9_k3 x_i1_j9_k6 x_i1_j9_k9 x_i2_k0 x_i2_k1
+ x_i2_k3 x_i2_k4 x_i2_k6 x_i2_k7 x_i2_k9 x_i2_j0_k0 x_i2_j0_k1 x_i2_j0_k3
+ x_i2_j0_k4 x_i2_j0_k6 x_i2_j0_k7 x_i2_j0_k9 x_i2_j1_k0 x_i2_j1_k3
+ x_i2_j1_k6 x_i2_j1_k9 x_i2_j3_k0 x_i2_j3_k1 x_i2_j3_k3 x_i2_j3_k4
+ x_i2_j3_k6 x_i2_j3_k7 x_i2_j3_k9 x_i2_j4_k0 x_i2_j4_k1 x_i2_j4_k3
+ x_i2_j4_k4 x_i2_j4_k6 x_i2_j4_k7 x_i2_j4_k9 x_i2_j5_k0 x_i2_j5_k3
+ x_i2_j5_k6 x_i2_j5_k9 x_i2_j6_k0 x_i2_j6_k1 x_i2_j6_k3 x_i2_j6_k4
+ x_i2_j6_k6 x_i2_j6_k7 x_i2_j6_k9 x_i2_j9_k0 x_i2_j9_k1 x_i2_j9_k3
+ x_i2_j9_k4 x_i2_j9_k6 x_i2_j9_k7 x_i2_j9_k9 x_i3_k0 x_i3_k1 x_i3_k3
+ x_i3_k4 x_i3_k6 x_i3_k7 x_i3_k9 x_i3_j0_k0 x_i3_j0_k1 x_i3_j0_k3
+ x_i3_j0_k4 x_i3_j0_k6 x_i3_j0_k7 x_i3_j0_k9 x_i3_j1_k0 x_i3_j1_k3
+ x_i3_j1_k6 x_i3_j1_k9 x_i3_j2_k0 x_i3_j2_k1 x_i3_j2_k3 x_i3_j2_k4
+ x_i3_j2_k6 x_i3_j2_k7 x_i3_j2_k9 x_i3_j4_k0 x_i3_j4_k1 x_i3_j4_k3
+ x_i3_j4_k4 x_i3_j4_k6 x_i3_j4_k7 x_i3_j4_k9 x_i3_j5_k0 x_i3_j5_k3
+ x_i3_j5_k6 x_i3_j5_k9 x_i3_j6_k0 x_i3_j6_k1 x_i3_j6_k3 x_i3_j6_k4
+ x_i3_j6_k6 x_i3_j6_k7 x_i3_j6_k9 x_i3_j9_k0 x_i3_j9_k1 x_i3_j9_k3
+ x_i3_j9_k4 x_i3_j9_k6 x_i3_j9_k7 x_i3_j9_k9 x_i4_k0 x_i4_k1 x_i4_k3
+ x_i4_k4 x_i4_k6 x_i4_k7 x_i4_k9 x_i4_j0_k0 x_i4_j0_k1 x_i4_j0_k3
+ x_i4_j0_k4 x_i4_j0_k6 x_i4_j0_k7 x_i4_j0_k9 x_i4_j1_k0 x_i4_j1_k3
+ x_i4_j1_k6 x_i4_j1_k9 x_i4_j2_k0 x_i4_j2_k1 x_i4_j2_k3 x_i4_j2_k4
+ x_i4_j2_k6 x_i4_j2_k7 x_i4_j2_k9 x_i4_j3_k0 x_i4_j3_k1 x_i4_j3_k3
+ x_i4_j3_k4 x_i4_j3_k6 x_i4_j3_k7 x_i4_j3_k9 x_i4_j5_k0 x_i4_j5_k3
+ x_i4_j5_k6 x_i4_j5_k9 x_i4_j6_k0 x_i4_j6_k1 x_i4_j6_k3 x_i4_j6_k4
+ x_i4_j6_k6 x_i4_j6_k7 x_i4_j6_k9 x_i4_j9_k0 x_i4_j9_k1 x_i4_j9_k3
+ x_i4_j9_k4 x_i4_j9_k6 x_i4_j9_k7 x_i4_j9_k9 x_i5_k0 x_i5_k3 x_i5_k6
+ x_i5_k9 x_i5_j0_k0 x_i5_j0_k3 x_i5_j0_k6 x_i5_j0_k9 x_i5_j1_k0 x_i5_j1_k3
+ x_i5_j1_k6 x_i5_j1_k9 x_i5_j2_k0 x_i5_j2_k3 x_i5_j2_k6 x_i5_j2_k9
+ x_i5_j3_k0 x_i5_j3_k3 x_i5_j3_k6 x_i5_j3_k9 x_i5_j4_k0 x_i5_j4_k3
+ x_i5_j4_k6 x_i5_j4_k9 x_i5_j6_k0 x_i5_j6_k3 x_i5_j6_k6 x_i5_j6_k9
+ x_i5_j9_k0 x_i5_j9_k3 x_i5_j9_k6 x_i5_j9_k9 x_i6_k0 x_i6_k1 x_i6_k3
+ x_i6_k4 x_i6_k6 x_i6_k7 x_i6_k9 x_i6_j0_k0 x_i6_j0_k1 x_i6_j0_k3
+ x_i6_j0_k4 x_i6_j0_k6 x_i6_j0_k7 x_i6_j0_k9 x_i6_j1_k0 x_i6_j1_k3
+ x_i6_j1_k6 x_i6_j1_k9 x_i6_j2_k0 x_i6_j2_k1 x_i6_j2_k3 x_i6_j2_k4
+ x_i6_j2_k6 x_i6_j2_k7 x_i6_j2_k9 x_i6_j3_k0 x_i6_j3_k1 x_i6_j3_k3
+ x_i6_j3_k4 x_i6_j3_k6 x_i6_j3_k7 x_i6_j3_k9 x_i6_j4_k0 x_i6_j4_k1
+ x_i6_j4_k3 x_i6_j4_k4 x_i6_j4_k6 x_i6_j4_k7 x_i6_j4_k9 x_i6_j5_k0
+ x_i6_j5_k3 x_i6_j5_k6 x_i6_j5_k9 x_i6_j9_k0 x_i6_j9_k1 x_i6_j9_k3
+ x_i6_j9_k4 x_i6_j9_k6 x_i6_j9_k7 x_i6_j9_k9 x_i7_k0 x_i7_k3 x_i7_k6
+ x_i7_k9 x_i7_j0_k0 x_i7_j0_k3 x_i7_j0_k6 x_i7_j0_k9 x_i7_j1_k0 x_i7_j1_k3
+ x_i7_j1_k6 x_i7_j1_k9 x_i7_j2_k0 x_i7_j2_k3 x_i7_j2_k6 x_i7_j2_k9
+ x_i7_j3_k0 x_i7_j3_k3 x_i7_j3_k6 x_i7_j3_k9 x_i7_j4_k0 x_i7_j4_k3
+ x_i7_j4_k6 x_i7_j4_k9 x_i7_j5_k0 x_i7_j5_k3 x_i7_j5_k6 x_i7_j5_k9
+ x_i7_j6_k0 x_i7_j6_k3 x_i7_j6_k6 x_i7_j6_k9 x_i7_j9_k0 x_i7_j9_k3
+ x_i7_j9_k6 x_i7_j9_k9 x_i8_k0 x_i8_k1 x_i8_k3 x_i8_k4 x_i8_k6 x_i8_k7
+ x_i8_k9 x_i8_j0_k0 x_i8_j0_k1 x_i8_j0_k3 x_i8_j0_k4 x_i8_j0_k6 x_i8_j0_k7
+ x_i8_j0_k9 x_i8_j1_k0 x_i8_j1_k3 x_i8_j1_k6 x_i8_j1_k9 x_i8_j2_k0
+ x_i8_j2_k1 x_i8_j2_k3 x_i8_j2_k4 x_i8_j2_k6 x_i8_j2_k7 x_i8_j2_k9
+ x_i8_j3_k0 x_i8_j3_k1 x_i8_j3_k3 x_i8_j3_k4 x_i8_j3_k6 x_i8_j3_k7
+ x_i8_j3_k9 x_i8_j4_k0 x_i8_j4_k1 x_i8_j4_k3 x_i8_j4_k4 x_i8_j4_k6
+ x_i8_j4_k7 x_i8_j4_k9 x_i8_j5_k0 x_i8_j5_k3 x_i8_j5_k6 x_i8_j5_k9
+ x_i8_j6_k0 x_i8_j6_k1 x_i8_j6_k3 x_i8_j6_k4 x_i8_j6_k6 x_i8_j6_k7
+ x_i8_j6_k9 x_i8_j9_k0 x_i8_j9_k1 x_i8_j9_k3 x_i8_j9_k4 x_i8_j9_k6
+ x_i8_j9_k7 x_i8_j9_k9 x_i9_k0 x_i9_k1 x_i9_k3 x_i9_k4 x_i9_k6 x_i9_k7
+ x_i9_k9 x_i9_j0_k0 x_i9_j0_k1 x_i9_j0_k3 x_i9_j0_k4 x_i9_j0_k6 x_i9_j0_k7
+ x_i9_j0_k9 x_i9_j1_k0 x_i9_j1_k3 x_i9_j1_k6 x_i9_j1_k9 x_i9_j2_k0
+ x_i9_j2_k1 x_i9_j2_k3 x_i9_j2_k4 x_i9_j2_k6 x_i9_j2_k7 x_i9_j2_k9
+ x_i9_j3_k0 x_i9_j3_k1 x_i9_j3_k3 x_i9_j3_k4 x_i9_j3_k6 x_i9_j3_k7
+ x_i9_j3_k9 x_i9_j4_k0 x_i9_j4_k1 x_i9_j4_k3 x_i9_j4_k4 x_i9_j4_k6
+ x_i9_j4_k7 x_i9_j4_k9 x_i9_j5_k0 x_i9_j5_k3 x_i9_j5_k6 x_i9_j5_k9
+ x_i9_j6_k0 x_i9_j6_k1 x_i9_j6_k3 x_i9_j6_k4 x_i9_j6_k6 x_i9_j6_k7
+ x_i9_j6_k9 y_i0_h4 y_i1_h5 y_i2_h4 y_i3_h7 y_i4_h9 y_i5_h1 y_i6_h4 y_i7_h5
+ y_i8_h9 y_i9_h6
+End

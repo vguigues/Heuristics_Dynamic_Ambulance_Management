@@ -1,0 +1,5 @@
+Heuristic	min (us)	mean (us)	q0.9 (us)	max (us)
+forward	6	30.206365503080082	50	100
+priorities	1	17.966009711510996	48	429
+minmax	0	14.46641355140187	39	96
+non_miopyc	5	32.36473050758765	54	135

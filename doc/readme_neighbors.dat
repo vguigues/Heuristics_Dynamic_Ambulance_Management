@@ -1,0 +1,8 @@
+i lat long type regressor(i,1) regressor(i,2) ... regressor(i,6) neighbor(i,1) dist(i, neighbor(i,1)) neighbor(i,2) dist(i, neighbor(i,2)) ...
+
+i: number of region
+lat, long: center of region i
+type: type of land i
+regressor(i,k): area m^2 for land type k of region i
+neighbor(i,j): number of j-th neighbor of region i
+dist(i,neighbor(i,j)): distance from i to j  

@@ -1,0 +1,2 @@
+Heuristic	min (us)	mean (us)	q0.9 (us)	max (us)
+non_miopyc	0	4.445541760722348	6	105

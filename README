@@ -1,0 +1,96 @@
+Required Libraries:
+	- Boost (https://www.boost.org/)
+	- Xtl (https://github.com/xtensor-stack/xtl)
+	- Xtensor (https://github.com/xtensor-stack/xtensor)
+	- fmtlib (https://github.com/fmtlib/fmt)
+	- OSRM-Backend (https://github.com/Project-OSRM/osrm-backend)
+
+Modify include paths in Makefile for your system
+
+
+================================================================
+
+Compiling:
+
+If all libraries are successfully installed, just run:
+
+$ make
+
+at the project root directory.
+
+Running:
+
+./esma -f <config_file.cfg>
+
+where <config_file.cfg> is a configuration file with the program parameters (ex: test.cfg at project root directory).
+
+
+
+==================================================================
+
+
+Options:
+
+
+Allowed Options:
+
+Generic Options:
+  -v [ --version ]                      Prints version message.
+  -h [ --help ]                         Prints help message.
+  -f [ --file ] arg                     configuration file path.
+
+Configuration:
+  -i [ --instance ] arg                 instance file path.
+  -s [ --solver ] arg (=queue)          solver used in each call. 
+                                        queue|forward|priorities|minmax|non_mio
+                                        pyc
+  -G [ --generator_folder ] arg (=calibration/Rect10x10)
+                                        scenario generator file path.
+  -d [ --debug ] arg (=0)               Runs in debug mode. default = false
+  -B [ --h_use_fixed_bases ] arg (=0)   Ambulance must return to its fixed 
+                                        base. default = false
+  --h_forward arg (=0)                  Calls can be dispatched to busy 
+                                        ambulances. default = false
+  --h_discard arg (=0)                  Heuristic don't consider a call queue. 
+                                        default = false
+  --h_order_priorities arg (=0)         In Heuristic, order calls in queue by 
+                                        priority. default = false
+  --h_order_time arg (=0)               In Heuristic, order calls by time. 
+                                        default = false
+  --n_nearest_hospitals arg (=1)        Number of nearest hospitals to a 
+                                        location l that can receive the 
+                                        patients of an emergency in l. default 
+                                        = 1
+  --n_nearest_ambs arg (=5)             In the Model Heuristic, number of 
+                                        nearest ambulances that will be 
+                                        evaluated via optimization model. 
+                                        default = 3.
+  --n_queue_calls_eval arg (=3)         In the Model Heuristic, number of calls
+                                        in the queue that will be evaluated via
+                                        optimization model. default = 3.
+  --n_scenarios arg (=100)              Number of generated scenarios from 
+                                        distribution data.
+  --n_time_slots arg (=12)              Number of time slots used in model. 
+                                        default = 12
+  --n_regions arg (=76)                 Number of regions used in model. 
+                                        default = 76
+  --n_hospitals arg (=10)               Number of hospitals. default = 10, max 
+                                        number = 10
+  --n_bases arg (=10)                   Number of bases. default = 10, max 
+                                        number = 33
+  --n_cleaning_bases arg (=3)           Number of cleaning bases. default = 3, 
+                                        max number = 10
+  --n_ambulances arg (=10)              Number of ambulances. default = 10
+  --extended_model                      In the Model, uses all sets of 
+                                        variables (don't assume near 
+                                        hospital/base). default = false.
+  --h_random_hospital                   In Heuristic, calls go to a random 
+                                        hospital. default = false
+
+
+
+
+==================================================================
+
+
+
