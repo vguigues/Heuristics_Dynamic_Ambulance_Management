@@ -1,0 +1,18 @@
+Policy name: ds ordered_rollout rs ordered_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	179.33
+	mean:	774.05
+	q0.9:	1388.76
+	max:	2524.66
+Penalized Response Times:
+	min:	179.33
+	mean:	1734.59
+	q0.9:	3999.89
+	max:	4946.93
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

@@ -1,0 +1,32 @@
+Policy name: ds ghp2_rollout rs ghp2_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	82.47
+	mean:	1358.72
+	q0.9:	3469.33
+	max:	4495.78
+Penalized Response Times:
+	min:	82.47
+	mean:	3176.47
+	q0.9:	7843.17
+	max:	14930.22
+Service Times:
+	min:	600.00
+	mean:	980.49
+	q0.9:	1965.22
+	max:	3908.35
+Dispatch runtimes (ms):
+	min:	547.389
+	mean:	2301.151
+	q0.9:	3791.655
+	max:	4147.867
+	sum:	85142.574
+Reassignment runtimes (ms):
+	min:	156.559
+	mean:	765.835
+	q0.9:	1221.612
+	max:	1580.181
+	sum:	28335.903

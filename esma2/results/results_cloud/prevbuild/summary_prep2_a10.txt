@@ -1,0 +1,18 @@
+Policy name: ds prep2 rs prep2
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	438.19
+	mean:	2470.44
+	q0.9:	3967.73
+	max:	5531.55
+Penalized Response Times:
+	min:	1862.03
+	mean:	7201.34
+	q0.9:	14553.78
+	max:	18972.27
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

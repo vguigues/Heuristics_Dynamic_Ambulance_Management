@@ -1,0 +1,32 @@
+Policy name: ds prep2_rollout rs prep2_rollout
+# of calls:	69
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	69
+# reassignment invocations:	69
+Response Times:
+	min:	91.72
+	mean:	1639.81
+	q0.9:	2905.11
+	max:	4956.88
+Penalized Response Times:
+	min:	303.20
+	mean:	4630.50
+	q0.9:	9011.63
+	max:	16570.05
+Service Times:
+	min:	600.00
+	mean:	759.38
+	q0.9:	1412.65
+	max:	2819.93
+Dispatch runtimes (ms):
+	min:	14880.433
+	mean:	60058.677
+	q0.9:	169924.826
+	max:	258179.096
+	sum:	4144048.695
+Reassignment runtimes (ms):
+	min:	58533.956
+	mean:	286864.993
+	q0.9:	424933.692
+	max:	493195.897
+	sum:	19793684.549

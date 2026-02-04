@@ -1,0 +1,18 @@
+Policy name: ds ghp1 rs ghp1
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	134.75
+	mean:	669.31
+	q0.9:	1198.94
+	max:	2246.42
+Penalized Response Times:
+	min:	134.75
+	mean:	1636.02
+	q0.9:	4186.43
+	max:	4946.93
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

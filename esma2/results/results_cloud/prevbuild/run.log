@@ -1,0 +1,783 @@
+nohup: ignoring input
+Ambulance Management Simulator v0.1 - Developed by Victor Hugo Nascimento
+Params:
+n_scenarios = 100
+rollout_length = 7200
+dispatch_policies = ["dummy_queue_rollout"]
+reassignment_policies = ["dummy_queue_rollout"]
+n_replications = 25
+amb_setup = us
+t_simul_begin = 410400
+t_simul_end = 417600
+nb_bases = 10
+nb_cleaning_bases = 10
+nb_hospitals = 10
+log_level = 1
+info_file = ../data/Rect10x10_km/info.dat
+lambda_file = ../data/Rect10x10_km/sorted_empirical_estimation.dat
+lambda_bases_file = ../data/bases_empirical_estimation.dat
+regions_file = ../data/Rect10x10_km/sorted_neighbors.dat
+samples_file = ../data/Rect10x10_km/samples.dat
+preparedness_file = ../data/preparedness_us_16a_34b.txt
+bases_file = ../data/bases.txt
+cleaning_file = ../data/cleaning.txt
+hospitals_file = ../data/hospitals.txt
+ambulances_file = 
+base_return_policy = closest
+eps = 0.0001
+min_preparedness = 0.4
+service_penalty = 1500
+Deterministic travel time = true
+intercept_time = 45
+M = 0.35
+delta = 0.03
+lambda_time = 0.03
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2536436
+Academic license 2536436 - for non-commercial use only - registered to vi___@cos.ufrj.br
+Loaded info data
+../data/Rect10x10_km/sorted_neighbors.dat build
+Loaded neighbors data
+Loaded samples data
+Loaded lambda regions data
+Loaded facilities data
+Loaded lambda bases data
+Loaded ambulances data
+n_types_amb = 2
+Loaded preparedness data
+Finished swap
+W after swap: {0: 0.00991553198908134, 1: 0.009945775226152927, 2: 0.009920052899506718, 3: 0.009902269841858996, 4: 0.009936535270839599, 5: 0.009919407282811613, 6: 0.009972348563971434, 7: 0.009972121001150792, 8: 0.009995460060796997, 9: 0.009998257456029423}
+Merge Count = 1
+Finished merge
+Summary Loaded Data:
+T = 48
+G = 7
+R = 76
+P = 3
+nb_ambulance_types = 2
+nb_call_types = 4
+time_fraction_duration = 1800
+centers size = 76
+loaded bases = 10
+loaded cleaning bases = 10
+loaded hospitals = 10
+loaded ambulances = 30
+Penalty matrix = [[0, 0, 1500, 1500], [6000, 6000, 0, 0]]
+ambulance/call matrix = [[true, true, true, true], [true, true, true, true]]
+data.regions.size() = 76
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2536436
+Academic license 2536436 - for non-commercial use only - registered to vi___@cos.ufrj.br
+Loaded info data
+../data/Rect10x10_km/sorted_neighbors.dat build
+Loaded neighbors data
+Loaded samples data
+Loaded lambda regions data
+Loaded facilities data
+Loaded lambda bases data
+Loaded ambulances data
+n_types_amb = 2
+Loaded preparedness data
+Finished swap
+W after swap: {0: 0.009951164029365047, 1: 0.009952947356682468, 2: 0.009955870608324813, 3: 0.009964227992266896, 4: 0.009974616033149645, 5: 0.009984998896840302, 6: 0.00999242572587494, 7: 0.00999619250961834, 8: 0.009999097521826704, 9: 0.009999818198178596}
+Merge Count = 1
+Finished merge
+Summary Loaded Data:
+T = 48
+G = 7
+R = 76
+P = 3
+nb_ambulance_types = 2
+nb_call_types = 4
+time_fraction_duration = 1800
+centers size = 76
+loaded bases = 10
+loaded cleaning bases = 10
+loaded hospitals = 10
+loaded ambulances = 10
+Penalty matrix = [[0, 0, 1500, 1500], [6000, 6000, 0, 0]]
+ambulance/call matrix = [[true, true, true, true], [true, true, true, true]]
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2536436
+Academic license 2536436 - for non-commercial use only - registered to vi___@cos.ufrj.br
+Loaded info data
+../data/Rect10x10_km/sorted_neighbors.dat build
+Loaded neighbors data
+Loaded samples data
+Loaded lambda regions data
+Loaded facilities data
+Loaded lambda bases data
+Loaded ambulances data
+n_types_amb = 2
+Loaded preparedness data
+Finished swap
+W after swap: {0: 0.009950994405789558, 1: 0.009952907862692168, 2: 0.009953216767838549, 3: 0.009953426421223922, 4: 0.009974465602552727, 5: 0.009984351944063557, 6: 0.009976405430777878, 7: 0.009996165010500886, 8: 0.009995560204063317, 9: 0.00999975554020247}
+Merge Count = 1
+Finished merge
+Summary Loaded Data:
+T = 48
+G = 7
+R = 76
+P = 3
+nb_ambulance_types = 2
+nb_call_types = 4
+time_fraction_duration = 1800
+centers size = 76
+loaded bases = 10
+loaded cleaning bases = 10
+loaded hospitals = 10
+loaded ambulances = 12
+Penalty matrix = [[0, 0, 1500, 1500], [6000, 6000, 0, 0]]
+ambulance/call matrix = [[true, true, true, true], [true, true, true, true]]
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2536436
+Academic license 2536436 - for non-commercial use only - registered to vi___@cos.ufrj.br
+Loaded info data
+../data/Rect10x10_km/sorted_neighbors.dat build
+Loaded neighbors data
+Loaded samples data
+Loaded lambda regions data
+Loaded facilities data
+Loaded lambda bases data
+Loaded ambulances data
+n_types_amb = 2
+Loaded preparedness data
+Finished swap
+W after swap: {0: 0.009950880254944498, 1: 0.009952836371801513, 2: 0.009953110527473092, 3: 0.009949283134289295, 4: 0.009974351297961332, 5: 0.009981401731341533, 6: 0.009974779048499942, 7: 0.00997255671721569, 8: 0.009995557597118315, 9: 0.009998944632883023}
+Merge Count = 1
+Finished merge
+Summary Loaded Data:
+T = 48
+G = 7
+R = 76
+P = 3
+nb_ambulance_types = 2
+nb_call_types = 4
+time_fraction_duration = 1800
+centers size = 76
+loaded bases = 10
+loaded cleaning bases = 10
+loaded hospitals = 10
+loaded ambulances = 14
+Penalty matrix = [[0, 0, 1500, 1500], [6000, 6000, 0, 0]]
+ambulance/call matrix = [[true, true, true, true], [true, true, true, true]]
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2536436
+Academic license 2536436 - for non-commercial use only - registered to vi___@cos.ufrj.br
+Loaded info data
+../data/Rect10x10_km/sorted_neighbors.dat build
+Loaded neighbors data
+Loaded samples data
+Loaded lambda regions data
+Loaded facilities data
+Loaded lambda bases data
+Loaded ambulances data
+n_types_amb = 2
+Loaded preparedness data
+Finished swap
+W after swap: {0: 0.00994263886477084, 1: 0.009952743550902327, 2: 0.009946988120892526, 3: 0.009943929007305195, 4: 0.009974271225490643, 5: 0.00995277496374413, 6: 0.009974752325423213, 7: 0.00997253682822116, 8: 0.009995553891178727, 9: 0.009998541102050264}
+Merge Count = 1
+Finished merge
+Summary Loaded Data:
+T = 48
+G = 7
+R = 76
+P = 3
+nb_ambulance_types = 2
+nb_call_types = 4
+time_fraction_duration = 1800
+centers size = 76
+loaded bases = 10
+loaded cleaning bases = 10
+loaded hospitals = 10
+loaded ambulances = 16
+Penalty matrix = [[0, 0, 1500, 1500], [6000, 6000, 0, 0]]
+ambulance/call matrix = [[true, true, true, true], [true, true, true, true]]
+Mean = 7224.415462294526
+Mean = 4149.2617358576645
+Mean = 2853.0977076288327
+Mean = 2639.347950253409
+Finished dummy_queue
+Mean = 4131.059985612638
+Mean = 2343.5417121222868
+Mean = 1875.5440687026571
+Mean = 1845.0802973161115
+Finished best_myopic
+Mean = 4131.059985612638
+Mean = 2343.5417121222868
+Mean = 1875.5440687026571
+Mean = 1845.0802973161115
+Finished non_myopic
+Mean = 5179.251477195342
+Mean = 3750.68706889519
+Mean = 2349.8206954167895
+Mean = 1937.2541014496521
+Finished ghp1
+Mean = 3387.134218071405
+Mean = 2085.0127867325587
+Mean = 1831.2492328651213
+Mean = 1790.2668193918244
+Finished ghp2
+Mean = 6033.302910466943
+Mean = 5257.692249957233
+Mean = 4934.7892167206755
+Mean = 3761.939025491597
+Finished coverage
+Mean = 6593.943125514294
+Mean = 4165.191104813492
+Mean = 2853.0977076288327
+Mean = 2639.347950253409
+Finished centrality
+Mean = 5481.703374118634
+Mean = 4188.851912254771
+Mean = 3248.8461548015257
+Mean = 3379.3217045470765
+Finished ordered
+Mean = 7721.344344399447
+Mean = 5141.961517477757
+Mean = 4421.33474457553
+Mean = 3977.4898115750025
+Finished district
+Mean = 6348.5121854618665
+Mean = 3834.0567422688614
+Mean = 2853.0977076288327
+Mean = 2641.61316269695
+Finished preparedness
+Mean = 7201.33801456454
+Mean = 4096.370389232436
+Mean = 3106.876362123324
+Mean = 2889.448369314104
+Finished prep2
+Mean = 6746.4225449799405
+Mean = 5406.89144986094
+Mean = 5433.021892729137
+Mean = 5405.215599887082
+Finished dist_centrality
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 5) current best call 34
+Mean = 4951.110270442199
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 34
+Mean = 2537.0840155399796
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 30
+Mean = 1963.0538272121717
+Mean = 1709.819830798544
+Finished dummy_queue_rollout
+Mean = 2800.2871213873277
+Mean = 2028.6464314369116
+Mean = 1665.0501103993329
+Mean = 1546.2109190634267
+Finished best_myopic_rollout
+Mean = 2800.2871213873277
+Mean = 2028.6464314369116
+Mean = 1665.0501103993329
+Mean = 1546.2109190634267
+Finished non_myopic_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 5
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 5
+Mean = 4202.59580159327
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 35
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 35
+Mean = 3616.1633276605958
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 20
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 29
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 29
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 29
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 29
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 29
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 29
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 29
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Mean = 2215.264647273183
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 17
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 20
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 24
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 26
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 24
+Mean = 1671.0627499098412
+Finished ghp1_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 10
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 12
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 12
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 6) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 5) current best call 26
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 36
+Mean = 2586.0446652600863
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 9
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 4) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 4) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 5) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 5) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 35
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Mean = 2579.794053876436
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 14
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 36
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 34
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 34
+Mean = 1897.8233785306031
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 17
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 20
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 20
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 24
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Warning! Simulation ended without solving calls in queue.
+	Call 0, time 417401.23, priority 3, region 49, hospital 0 (N), cleaning 2 (N)
+Stack trace (most recent call first):
+#0  0x0000000000443a45 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#1  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#2  0x0000000000468dd8 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#3  0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#4  0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#5  0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#6  0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#7  0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#8  0x000000000041778e in main at /root/esma_refactor/build/esma
+#9  0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#10 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#11 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+scenario size = 0, queue.size() = 1, result.size() = 0
+Stack trace (most recent call first):
+#0 0x0000000000468ed7 in esma::TwoStageReassignmentSolver<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(esma::ReassignmentRequest<esma::AmbulanceTypeUS, esma::CallTypeUS>&) at /root/esma_refactor/build/esma
+#1 0x000000000047b910 in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::reassign_ambulance(int) at /root/esma_refactor/build/esma
+#2 0x000000000044385c in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run_all_events() at /root/esma_refactor/build/esma
+#3 0x0000000000458c6d in esma::Simulator<esma::AmbulanceTypeUS, esma::CallTypeUS>::run(boost::units::quantity<boost::units::unit<boost::units::list<boost::units::dim<boost::units::time_base_dimension, boost::units::static_rational<1l, 1l> >, boost::units::dimensionless_type>, boost::units::homogeneous_system<boost::units::list<boost::units::si::meter_base_unit, boost::units::list<boost::units::scaled_base_unit<boost::units::cgs::gram_base_unit, boost::units::scale<10l, boost::units::static_rational<3l, 1l> > >, boost::units::list<boost::units::si::second_base_unit, boost::units::list<boost::units::si::ampere_base_unit, boost::units::list<boost::units::si::kelvin_base_unit, boost::units::list<boost::units::si::mole_base_unit, boost::units::list<boost::units::si::candela_base_unit, boost::units::list<boost::units::angle::radian_base_unit, boost::units::list<boost::units::angle::steradian_base_unit, boost::units::dimensionless_type> > > > > > > > > >, void>, double>, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS>, std::allocator<esma::Ambulance<esma::AmbulanceTypeUS, esma::CallTypeUS> > > const&, std::vector<esma::Call<esma::CallTypeUS>, std::allocator<esma::Call<esma::CallTypeUS> > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, esma::SimulationResult) at /root/esma_refactor/build/esma
+#4 0x0000000000459848 in run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)::{lambda(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)#1}::operator()(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) const at /root/esma_refactor/build/esma
+#5 0x000000000045af9c in void run_solver_sweep<esma::AmbulanceTypeUS, esma::CallTypeUS>(esma::Data<esma::AmbulanceTypeUS, esma::CallTypeUS>&, esma::Params const&, esma::SphericalTravel&, std::vector<int, std::allocator<int> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >) at /root/esma_refactor/build/esma
+#6 0x000000000041778e in main at /root/esma_refactor/build/esma
+#7 0x00007ff760eedd8f at /lib/x86_64-linux-gnu/libc.so.6
+#8 0x00007ff760eede3f in __libc_start_main at /lib/x86_64-linux-gnu/libc.so.6
+#9 0x0000000000417dd4 in _start at /root/esma_refactor/build/esma
+Mean = 1653.3418324575885
+Finished ghp2_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 14
+Mean = 4821.84169798502
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 17
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 24
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 34
+Mean = 3128.3895304012913
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Mean = 2240.269461955702
+Mean = 2151.8260118290564
+Finished coverage_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 35
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Mean = 3554.9370699834794
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 12
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 12
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 23
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 25
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 30
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 32
+Mean = 2855.29479283169
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 11
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 11
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 26
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 32
+Mean = 2820.746189941819
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 12
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 12
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 24
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Mean = 1884.1095090639492
+Finished centrality_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 4) current best call 20
+Warning: Decided to return to base even though there are calls in queue (queue size 7) current best call 28
+Mean = 4531.832874666986
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 14
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 28
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 34
+Mean = 3104.568160902888
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 14
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 22
+Mean = 1954.709961543585
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Mean = 1905.31739328557
+Finished ordered_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 11
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 36
+Mean = 4196.677894801119
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 21
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 32
+Mean = 3134.3945916124158
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 22
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 22
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 28
+Mean = 2335.8128179576815
+Mean = 1889.5561730694671
+Finished district_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 10
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 10
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 22
+Warning: Decided to return to base even though there are calls in queue (queue size 4) current best call 25
+Mean = 3640.265215795591
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 17
+Warning: Decided to return to base even though there are calls in queue (queue size 4) current best call 23
+Warning: Decided to return to base even though there are calls in queue (queue size 4) current best call 25
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 28
+Mean = 2298.446026364072
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 34
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 34
+Mean = 2180.725354687775
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Mean = 1946.6802645271812
+Finished preparedness_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 11
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 11
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 36
+Mean = 4229.4390614333415
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 14
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 28
+Mean = 2401.9040573659004
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 23
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 24
+Mean = 1966.8012283156056
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 28
+Mean = 1833.8119777405643
+Finished prep2_rollout
+Warning: Decided to return to base even though there are calls in queue (queue size 4) current best call 33
+Warning: Decided to return to base even though there are calls in queue (queue size 4) current best call 35
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 35
+Mean = 3881.49446505047
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 17
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 17
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 3) current best call 21
+Mean = 3274.394209044551
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 17
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 18
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 18
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 21
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 32
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 32
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Mean = 3077.785737409288
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 2) current best call 15
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 13
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 19
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Warning: Decided to return to base even though there are calls in queue (queue size 1) current best call 36
+Mean = 2689.806249986516
+Finished dist_centrality_rollout

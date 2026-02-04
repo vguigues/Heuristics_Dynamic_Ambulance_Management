@@ -1,0 +1,32 @@
+Policy name: ds coverage rs coverage
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	40.83
+	mean:	2136.27
+	q0.9:	4159.84
+	max:	6413.63
+Penalized Response Times:
+	min:	198.24
+	mean:	6530.41
+	q0.9:	15314.96
+	max:	25654.53
+Service Times:
+	min:	600.00
+	mean:	1011.76
+	q0.9:	1829.33
+	max:	6439.21
+Dispatch runtimes (ms):
+	min:	0.000
+	mean:	0.157
+	q0.9:	0.487
+	max:	0.690
+	sum:	5.802
+Reassignment runtimes (ms):
+	min:	0.000
+	mean:	0.001
+	q0.9:	0.001
+	max:	0.003
+	sum:	0.022

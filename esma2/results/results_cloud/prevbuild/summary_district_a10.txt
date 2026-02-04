@@ -1,0 +1,18 @@
+Policy name: ds district rs district
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	406.82
+	mean:	2706.44
+	q0.9:	4706.07
+	max:	6355.38
+Penalized Response Times:
+	min:	1226.11
+	mean:	7721.34
+	q0.9:	16095.63
+	max:	25421.53
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

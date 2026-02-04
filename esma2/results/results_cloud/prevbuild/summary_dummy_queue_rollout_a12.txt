@@ -1,0 +1,18 @@
+Policy name: ds dummy_queue_rollout rs dummy_queue_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	95.75
+	mean:	837.43
+	q0.9:	1363.85
+	max:	3190.43
+Penalized Response Times:
+	min:	95.75
+	mean:	2537.08
+	q0.9:	5455.40
+	max:	9364.51
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

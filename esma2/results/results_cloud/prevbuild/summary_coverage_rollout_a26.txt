@@ -1,0 +1,18 @@
+Policy name: ds coverage_rollout rs coverage_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	110.59
+	mean:	742.39
+	q0.9:	1203.85
+	max:	2616.08
+Penalized Response Times:
+	min:	110.59
+	mean:	1684.23
+	q0.9:	3905.67
+	max:	4996.04
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

@@ -1,0 +1,32 @@
+Policy name: ds ordered_rollout rs ordered_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	179.33
+	mean:	848.36
+	q0.9:	1609.84
+	max:	2788.47
+Penalized Response Times:
+	min:	179.33
+	mean:	1992.22
+	q0.9:	3905.67
+	max:	6218.09
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46
+Dispatch runtimes (ms):
+	min:	2024.170
+	mean:	3851.623
+	q0.9:	5448.825
+	max:	6755.446
+	sum:	142510.042
+Reassignment runtimes (ms):
+	min:	319.754
+	mean:	438.391
+	q0.9:	525.212
+	max:	802.112
+	sum:	16220.478

@@ -1,0 +1,18 @@
+Policy name: ds preparedness_rollout rs preparedness_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	35.34
+	mean:	838.58
+	q0.9:	1425.78
+	max:	3147.56
+Penalized Response Times:
+	min:	35.34
+	mean:	2180.73
+	q0.9:	4206.27
+	max:	7624.01
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

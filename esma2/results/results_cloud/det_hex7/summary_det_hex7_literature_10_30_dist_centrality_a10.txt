@@ -1,0 +1,32 @@
+Policy name: ds dist_centrality rs dist_centrality
+# of calls:	69
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	69
+# reassignment invocations:	69
+Response Times:
+	min:	201.31
+	mean:	2699.25
+	q0.9:	5192.11
+	max:	8236.45
+Penalized Response Times:
+	min:	201.31
+	mean:	7313.09
+	q0.9:	15011.29
+	max:	34445.81
+Service Times:
+	min:	600.00
+	mean:	759.38
+	q0.9:	1412.65
+	max:	2819.93
+Dispatch runtimes (ms):
+	min:	0.002
+	mean:	0.059
+	q0.9:	0.162
+	max:	1.260
+	sum:	4.063
+Reassignment runtimes (ms):
+	min:	0.004
+	mean:	0.645
+	q0.9:	1.822
+	max:	9.372
+	sum:	44.480

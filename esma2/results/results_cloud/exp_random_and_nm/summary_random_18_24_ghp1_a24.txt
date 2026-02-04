@@ -1,0 +1,32 @@
+Policy name: ds ghp1 rs ghp1
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	62.05
+	mean:	1260.47
+	q0.9:	3669.18
+	max:	4904.24
+Penalized Response Times:
+	min:	126.39
+	mean:	3357.84
+	q0.9:	8253.29
+	max:	19616.94
+Service Times:
+	min:	600.00
+	mean:	921.68
+	q0.9:	1845.13
+	max:	3273.93
+Dispatch runtimes (ms):
+	min:	0.006
+	mean:	0.014
+	q0.9:	0.020
+	max:	0.022
+	sum:	0.504
+Reassignment runtimes (ms):
+	min:	0.003
+	mean:	0.005
+	q0.9:	0.007
+	max:	0.010
+	sum:	0.200

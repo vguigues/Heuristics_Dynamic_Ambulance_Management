@@ -1,0 +1,18 @@
+Policy name: ds dist_centrality_rollout rs dist_centrality_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	384.10
+	mean:	1348.42
+	q0.9:	2302.20
+	max:	4692.76
+Penalized Response Times:
+	min:	550.31
+	mean:	3274.39
+	q0.9:	7073.13
+	max:	9436.97
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

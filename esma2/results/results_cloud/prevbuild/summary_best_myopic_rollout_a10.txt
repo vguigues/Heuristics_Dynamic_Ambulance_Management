@@ -1,0 +1,18 @@
+Policy name: ds best_myopic_rollout rs best_myopic_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	202.41
+	mean:	1321.42
+	q0.9:	2369.91
+	max:	3736.58
+Penalized Response Times:
+	min:	550.31
+	mean:	2800.29
+	q0.9:	4957.33
+	max:	8704.00
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46

@@ -1,0 +1,32 @@
+Policy name: ds best_myopic ds best_myopic
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	20
+Response Times:
+	min:	90.84
+	mean:	1846.83
+	q0.9:	3107.63
+	max:	6801.99
+Penalized Response Times:
+	min:	108.92
+	mean:	4529.07
+	q0.9:	9237.41
+	max:	27207.96
+Service Times:
+	min:	600.00
+	mean:	941.98
+	q0.9:	1820.23
+	max:	4595.88
+Dispatch runtimes (ms):
+	min:	0.007
+	mean:	0.009
+	q0.9:	0.011
+	max:	0.013
+	sum:	0.344
+Reassignment runtimes (ms):
+	min:	0.002
+	mean:	0.004
+	q0.9:	0.005
+	max:	0.006
+	sum:	0.081

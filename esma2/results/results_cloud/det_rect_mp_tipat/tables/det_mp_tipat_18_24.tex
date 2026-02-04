@@ -1,0 +1,36 @@
+% Auto-generated solver sweep results
+
+\begin{table}[h!]
+\scalebox{1}{
+\centering
+\begin{tabular}{@{}l|ccc|ccc|ccc|ccc@{}}
+\toprule
+Number of Ambulances & \multicolumn{3}{c|}{18} & \multicolumn{3}{c|}{20} & \multicolumn{3}{c|}{22} & \multicolumn{3}{c}{24} \\
+\midrule
+Heuristic & Mean & Q0.9 & Max & Mean & Q0.9 & Max & Mean & Q0.9 & Max & Mean & Q0.9 & Max \\
+\midrule
+markov_preparedness & 2085 & 4606 & 6666 & 1933 & 4240 & 4947 & 1848 & 4571 & 5484 & 1586 & 3906 & 4947 \\
+tipat & 49207 & 160639 & 310593 & 62488 & 286133 & 303052 & 56468 & 174444 & 317965 & 37312 & 71104 & 292772 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Allocation costs by solver and fleet size}
+\end{table}
+
+\begin{table}[h!]
+\scalebox{1}{
+\centering
+\begin{tabular}{@{}l|ccc|ccc|ccc|ccc@{}}
+\toprule
+Number of Ambulances & \multicolumn{3}{c|}{18} & \multicolumn{3}{c|}{20} & \multicolumn{3}{c|}{22} & \multicolumn{3}{c}{24} \\
+\midrule
+Heuristic & Mean & Q0.9 & Max & Mean & Q0.9 & Max & Mean & Q0.9 & Max & Mean & Q0.9 & Max \\
+\midrule
+markov_preparedness_rollout & 1621 & 3906 & 6218 & 1661 & 4015 & 4947 & 1477 & 3882 & 4947 & 1744 & 4089 & 4947 \\
+tipat_rollout & 4152 & 9366 & 20174 & 4368 & 7930 & 20930 & 4886 & 12278 & 20592 & 4489 & 9196 & 19661 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Allocation costs by solver rollout and fleet size}
+\end{table}
+

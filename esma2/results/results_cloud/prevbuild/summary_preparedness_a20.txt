@@ -1,0 +1,32 @@
+Policy name: ds preparedness rs preparedness
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	80.74
+	mean:	649.47
+	q0.9:	1135.66
+	max:	1559.25
+Penalized Response Times:
+	min:	98.86
+	mean:	2575.64
+	q0.9:	4795.76
+	max:	7627.29
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46
+Dispatch runtimes (ms):
+	min:	0.036
+	mean:	0.822
+	q0.9:	3.188
+	max:	6.250
+	sum:	30.430
+Reassignment runtimes (ms):
+	min:	0.018
+	mean:	0.020
+	q0.9:	0.022
+	max:	0.031
+	sum:	0.725

@@ -1,0 +1,32 @@
+Policy name: ds ordered rs ordered
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	170.72
+	mean:	1699.67
+	q0.9:	3064.21
+	max:	4064.97
+Penalized Response Times:
+	min:	657.72
+	mean:	4659.94
+	q0.9:	7966.12
+	max:	16152.17
+Service Times:
+	min:	600.00
+	mean:	961.12
+	q0.9:	1942.54
+	max:	3908.35
+Dispatch runtimes (ms):
+	min:	0.001
+	mean:	0.007
+	q0.9:	0.016
+	max:	0.025
+	sum:	0.264
+Reassignment runtimes (ms):
+	min:	0.001
+	mean:	0.001
+	q0.9:	0.001
+	max:	0.002
+	sum:	0.036

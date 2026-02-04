@@ -1,0 +1,32 @@
+Policy name: ds district rs district
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	221.71
+	mean:	876.37
+	q0.9:	1543.35
+	max:	3351.07
+Penalized Response Times:
+	min:	388.36
+	mean:	3566.73
+	q0.9:	7097.47
+	max:	10413.50
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46
+Dispatch runtimes (ms):
+	min:	0.036
+	mean:	0.054
+	q0.9:	0.072
+	max:	0.099
+	sum:	2.002
+Reassignment runtimes (ms):
+	min:	0.000
+	mean:	0.001
+	q0.9:	0.001
+	max:	0.002
+	sum:	0.033

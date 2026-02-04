@@ -1,0 +1,32 @@
+Policy name: ds tipat rs tipat
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	18
+Response Times:
+	min:	1001.88
+	mean:	27132.93
+	q0.9:	76036.78
+	max:	78729.30
+Penalized Response Times:
+	min:	1226.11
+	mean:	63397.35
+	q0.9:	292325.82
+	max:	316417.21
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46
+Dispatch runtimes (ms):
+	min:	0.129
+	mean:	0.149
+	q0.9:	0.166
+	max:	0.198
+	sum:	5.509
+Reassignment runtimes (ms):
+	min:	0.124
+	mean:	0.132
+	q0.9:	0.144
+	max:	0.155
+	sum:	2.367

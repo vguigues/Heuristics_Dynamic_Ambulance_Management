@@ -1,0 +1,32 @@
+Policy name: ds centrality_rollout rs centrality_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	20.74
+	mean:	1505.60
+	q0.9:	2788.54
+	max:	6637.83
+Penalized Response Times:
+	min:	20.74
+	mean:	3789.06
+	q0.9:	9042.37
+	max:	10956.71
+Service Times:
+	min:	600.00
+	mean:	997.67
+	q0.9:	1880.02
+	max:	4595.88
+Dispatch runtimes (ms):
+	min:	117.491
+	mean:	841.175
+	q0.9:	2038.906
+	max:	2368.054
+	sum:	31123.467
+Reassignment runtimes (ms):
+	min:	154.462
+	mean:	601.065
+	q0.9:	1074.075
+	max:	1548.914
+	sum:	22239.422

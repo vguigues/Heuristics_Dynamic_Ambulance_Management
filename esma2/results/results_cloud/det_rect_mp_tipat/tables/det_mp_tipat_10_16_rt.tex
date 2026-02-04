@@ -1,0 +1,36 @@
+% Auto-generated solver sweep results
+
+\begin{table}[h!]
+\scalebox{0.7}{
+\centering
+\begin{tabular}{@{}l|ccc|ccc|ccc|ccc@{}}
+\toprule
+Number of Ambulances & \multicolumn{3}{c|}{10} & \multicolumn{3}{c|}{12} & \multicolumn{3}{c|}{14} & \multicolumn{3}{c}{16} \\
+\midrule
+Heuristic & Mean & Q0.9 & Max & Mean & Q0.9 & Max & Mean & Q0.9 & Max & Mean & Q0.9 & Max \\
+\midrule
+markov_preparedness & 2122 & 3395 & 4171 & 1484 & 2349 & 2568 & 1184 & 1804 & 2770 & 764 & 1304 & 1590 \\
+tipat & 7334 & 14342 & 71871 & 11976 & 27435 & 33546 & 18850 & 74464 & 78793 & 17511 & 36760 & 73314 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Response times by heuristic and fleet size}
+\end{table}
+
+\begin{table}[h!]
+\scalebox{0.7}{
+\centering
+\begin{tabular}{@{}l|ccc|ccc|ccc|ccc@{}}
+\toprule
+Number of Ambulances & \multicolumn{3}{c|}{10} & \multicolumn{3}{c|}{12} & \multicolumn{3}{c|}{14} & \multicolumn{3}{c}{16} \\
+\midrule
+Heuristic & Mean & Q0.9 & Max & Mean & Q0.9 & Max & Mean & Q0.9 & Max & Mean & Q0.9 & Max \\
+\midrule
+markov_preparedness_rollout & 3114 & 11273 & 17091 & 1139 & 2586 & 5128 & 1019 & 1739 & 4901 & 1003 & 1441 & 7066 \\
+tipat_rollout & 3302 & 5841 & 7694 & 2725 & 4965 & 6862 & 1404 & 2547 & 3728 & 1427 & 2894 & 4970 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Response times by heuristic rollout and fleet size}
+\end{table}
+

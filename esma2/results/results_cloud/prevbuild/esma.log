@@ -1,0 +1,37 @@
+Ambulance Management Simulator v0.1 - Developed by Victor Hugo Nascimento
+Params:
+n_scenarios = 100
+rollout_length = 7200
+dispatch_policies = ["dummy_queue_rollout"]
+reassignment_policies = ["dummy_queue_rollout"]
+n_replications = 25
+amb_setup = us
+t_simul_begin = 410400
+t_simul_end = 417600
+nb_bases = 10
+nb_cleaning_bases = 10
+nb_hospitals = 10
+log_level = 1
+info_file = ../data/Rect10x10_km/info.dat
+lambda_file = ../data/Rect10x10_km/sorted_empirical_estimation.dat
+lambda_bases_file = ../data/bases_empirical_estimation.dat
+regions_file = ../data/Rect10x10_km/sorted_neighbors.dat
+samples_file = ../data/Rect10x10_km/samples.dat
+preparedness_file = ../data/preparedness_us_16a_34b.txt
+bases_file = ../data/bases.txt
+cleaning_file = ../data/cleaning.txt
+hospitals_file = ../data/hospitals.txt
+ambulances_file = 
+base_return_policy = closest
+eps = 0.0001
+min_preparedness = 0.4
+service_penalty = 1500
+Deterministic travel time = true
+intercept_time = 45
+M = 0.35
+delta = 0.03
+lambda_time = 0.03
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2536436
+Academic license 2536436 - for non-commercial use only - registered to vi___@cos.ufrj.br

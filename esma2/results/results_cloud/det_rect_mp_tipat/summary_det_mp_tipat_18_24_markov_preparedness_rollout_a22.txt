@@ -1,0 +1,32 @@
+Policy name: ds markov_preparedness_rollout rs markov_preparedness_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	198.55
+	mean:	608.97
+	q0.9:	1198.94
+	max:	1692.83
+Penalized Response Times:
+	min:	198.55
+	mean:	1476.81
+	q0.9:	3882.23
+	max:	4946.93
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46
+Dispatch runtimes (ms):
+	min:	27726.546
+	mean:	124127.807
+	q0.9:	217495.958
+	max:	308080.423
+	sum:	4592728.849
+Reassignment runtimes (ms):
+	min:	9207.605
+	mean:	53486.885
+	q0.9:	77534.388
+	max:	107924.464
+	sum:	1979014.733

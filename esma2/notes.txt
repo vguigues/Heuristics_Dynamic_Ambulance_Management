@@ -1,0 +1,177 @@
+Experiment Runner:
+    For each n_replications:
+        for each n_scenarios:
+            for each scenario_window_size:
+                For each n_ambulances:
+                    for each delay_param:
+                        for each policy:
+                            run policies one stage
+                            run policies two stage
+
+
+=================================================================
+
+
+DummyQueueDispatch:
+    select available ambulance that will reach the call faster
+    if no ambulance available
+        add call to queue
+
+DummyQueueReassignment:
+    if queue empty:
+        return ambulance to (closest|fixed|best) base
+    else:
+        dispatch ambulance to oldest call in queue
+
+
+Rollout algorithm:
+
+Two-stage policies are solvers
+
+DummyQueue2StageDispatch:
+    generate param.n_scenarios scenarios with current_time + param.scenario_window_size
+    costs = []
+    min_cost = Inf
+    amb_id = -1
+    for amb in request.ambulances:
+        for s in 1:param.n_scenarios:
+            assign amb to call
+            result = sim.run(m_call_queue + scenarios[s], ambulances)
+            costs.append(result.cost)
+        mean_cost = sum(costs)/param.n_scenarios
+        if mean_cost < min_cost:
+            amb_id = amb.id
+            min_cost = mean_cost
+    for s in 1:param.n_scenarios:
+        assign amb to call
+        result = sim.run(m_call_queue + scenarios[s], ambulances)
+        costs.append(result.cost)
+    mean_cost = sum(costs)/param.n_scenarios
+    if mean_cost < min_cost:
+        amb_id = amb.id
+        min_cost = mean_cost
+
+    return decision of min_cost
+
+    
+
+===================================================================================
+
+Things to keep in mind:
+    
+
+-> How to deal with the queue?
+
+What the simulator does is to simulate the operation of the call center, right?
+
+In the call center, if there's a queue, the operator will always give priority to the calls
+are already in the queue. This justifies the idea that the queue must be inserted into the
+scenario before solving. 
+
+Moreover, even if the queue started empty, the score system of some heuristics might end up,
+not solving the call. How to do in this case? We need to ensure that not solving calls is very expensive.
+
+- DummyQueue and Queue: Always solve all calls, since reassignment ensures that the ambulance only goes to base,
+    when the queue is empty.
+- Best Myopic: Always solve all calls, granted that we insert the previous queue into the scenario.
+- GHP1 and GHP2: They try to assign the ambulances to all calls in queue (calls in queue, plus call that just arrived). 
+in this setting we will return as the solution only the decision for the call that just arrived.
+
+- Heuristics that don't use queue:
+    - Incorporate calls in queue inside the scenario
+        time for the event must not be the same as time for the call
+
+- Heuristics that use queue, might not have an event registered for the call in the queue
+    - In the second stage, this probably shouldn't happen:
+        - Scenarios that don't solve the calls in queue will have higher scores
+
+
+
+-> Should I implement a way to dispatch many ambulances at an event?
+    - The GHP1 and GHP2 heuristics suggest so.
+    - Doesn't this "brake" simulator logic?
+    - No. Simulator must incorporate that behavior, specially because we make provision for dispatch of busy ambulances.
+    - Ok, is it better to generalize the response then? for instance, GHP1/2 applies the same policy in Dispatch and Reassignment.
+        - Maybe but how?
+            class DispatchResponse {
+            public:
+                DispatchResponseType type;
+                int amb_id;
+            };
+
+            class ReassignmentResponse {
+            public:
+                ReassignmentResponseType response_type;
+                int base_id = -1;
+                int call_id = -1;
+            };
+
+            class SolverResponse{
+            private:
+                std::vector<SolverResponseType> response_type;
+                std::vector<int> amb_id;
+                std::vector<int> call_id;
+                std::vector<int> base_id;
+            public:
+                SolverResponse(
+                    std::vector<SolverResponseType>& response_type,
+                    std::vector<int>& amb_id,
+                    std::vector<int>& call_id,
+                    std::vector<int>& base_id;                    
+                ){
+                    if(response_type.size() == amb_id.size() &&
+                        amb_id.size() == call_id.size() &&
+                        call_id.size() == base_id.size()){
+
+                    }else{
+                        fmt::print("ERROR: ")
+                    }
+                }
+            };
+
+
+
+=========================================================
+
+Improvements:
+    I'm almost abandoning the idea of templates
+
+
+
+
+============================================================
+
+18/06/2025
+
+How to set the simulator to run:
+    - First stage simulations: just run the scenario
+    - Second stage simulations: Setup some configuration and run the scenario
+        Which configurations:
+            Send an ambulance to a call that just arrived
+                Copy the call_queue to the simulator
+                Update the ambulance amb state with the service to the call
+                Copy the ambulances to the simulator (amb already assigned to the call)
+                Copy the scenario to the simulator
+                Run the simulation
+            Put a call that just arrived in the queue
+                Add the call that just arrived to the request.call_queue
+                Copy the call_queue to the simulator
+                Copy the ambulances to the simulator
+                Copy the scenario to the simulator
+                Run the simulation
+            Send an ambulance to a call in queue
+                Remove the call c from the queue
+                Update the ambulance amb state with the service to c
+                Copy the call_queue to the simulator
+                Copy the ambulances to the simulator (amb already assigned to the call)
+                Copy the scenario to the simulator
+                Run the simulation
+            Send an ambulance to a base
+                Update the state of the ambulance amb with the travel to the base b
+                Copy the call_queue to the simulator
+                Copy the ambulances to the simulator (amb already returning to the base)
+                Copy the scenario to the simulator
+                Run the simulation
+
+De quem é a responsabilidade de préconfigurar?
+    Do simulador second stage

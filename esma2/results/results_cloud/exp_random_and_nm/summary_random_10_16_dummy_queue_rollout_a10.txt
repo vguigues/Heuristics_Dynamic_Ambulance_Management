@@ -1,0 +1,32 @@
+Policy name: ds dummy_queue_rollout rs dummy_queue_rollout
+# of calls:	37
+Fraction of discarded calls:	0.00%
+# dispatch invocations:	37
+# reassignment invocations:	37
+Response Times:
+	min:	254.35
+	mean:	2636.79
+	q0.9:	4906.30
+	max:	5902.23
+Penalized Response Times:
+	min:	257.71
+	mean:	5503.22
+	q0.9:	9042.03
+	max:	20413.78
+Service Times:
+	min:	600.00
+	mean:	950.19
+	q0.9:	1741.00
+	max:	4122.28
+Dispatch runtimes (ms):
+	min:	89.057
+	mean:	256.039
+	q0.9:	547.738
+	max:	730.106
+	sum:	9473.454
+Reassignment runtimes (ms):
+	min:	105.324
+	mean:	354.770
+	q0.9:	705.948
+	max:	905.959
+	sum:	13126.506

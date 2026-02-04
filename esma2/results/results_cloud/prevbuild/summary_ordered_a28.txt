@@ -1,0 +1,18 @@
+Policy name: ds ordered rs ordered
+# of calls:	37
+Fraction of discarded calls:	0.00%
+Response Times:
+	min:	221.71
+	mean:	1103.31
+	q0.9:	2476.38
+	max:	4056.15
+Penalized Response Times:
+	min:	417.25
+	mean:	3427.42
+	q0.9:	7236.18
+	max:	10413.50
+Service Times:
+	min:	600.00
+	mean:	905.98
+	q0.9:	1767.64
+	max:	3342.46
